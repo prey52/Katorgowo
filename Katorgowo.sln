@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katorgowo", "Katorgowo\Katorgowo.csproj", "{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagement", "AccountManagement\AccountManagement.csproj", "{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobOffers", "JobOffers\JobOffers.csproj", "{F779F595-D8B6-4132-B350-7C5A575B1978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentCalendar", "AppointmentCalendar\AppointmentCalendar.csproj", "{316A4EDC-6D70-489C-9146-FA1F55C743A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentProcess", "RecruitmentProcess\RecruitmentProcess.csproj", "{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{A20570F6-7E12-4301-8DDF-B2CDDFD34671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F779F595-D8B6-4132-B350-7C5A575B1978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F779F595-D8B6-4132-B350-7C5A575B1978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F779F595-D8B6-4132-B350-7C5A575B1978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F779F595-D8B6-4132-B350-7C5A575B1978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83C1CA94-C5A8-4B20-A2CA-1D7644E9E841}
+	EndGlobalSection
+EndGlobal
