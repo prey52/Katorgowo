@@ -1,0 +1,16 @@
+﻿################################################################################
+# Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
+################################################################################
+
+/Katorgowo/appsettings.json
+/.vs/Katorgowo/FileContentIndex
+/AppointmentCalendar/bin/Debug/net8.0
+/AccountManagement/obj/Debug/net8.0
+/.vs/Katorgowo/v17
+/AppointmentCalendar/obj/Debug/net8.0
+/JobOffers/bin/Debug/net8.0
+/JobOffers/obj/Debug/net8.0/staticwebassets
+/JobOffers/obj/Debug/net8.0
+/RabbitMQ
+/RecruitmentProcess
+/Katorgowo/obj/Debug/net8.0
