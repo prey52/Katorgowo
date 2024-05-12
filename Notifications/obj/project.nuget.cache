@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bq47HgdZijSaF9fe4BURwBWuI3XAq9ES2xEpkFn50Kdbi5cr9DnW0YqxgKgl48NF6NxBEr3mpD0N/ilDMyfpIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Notifications\\Notifications.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}
