@@ -79,6 +79,8 @@ using (var scope = app.Services.CreateScope())
         var user = new DBUser();
         user.UserName = email;
         user.Email = email;
+        user.FirstName = "hhh";
+        user.LastName = "ggg";
         await userManager.CreateAsync(user, password);
 
         await userManager.AddToRoleAsync(user, "Admin");
