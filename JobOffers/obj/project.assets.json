@@ -4580,9 +4580,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\JobOffers.csproj",
-      "projectName": "JobOffers",
-      "projectPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\JobOffers.csproj",
+      "projectUniqueName": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.csproj",
+      "projectName": "OfertyPracy",
+      "projectPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.csproj",
       "packagesPath": "C:\\Users\\Hirvio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\obj\\",
       "projectStyle": "PackageReference",
@@ -4667,13 +4667,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Wystąpił problem podczas czytania pliku pamięci podręcznej C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

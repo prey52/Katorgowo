@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8mY1TB8mS7oK+svpDrJZLIBXygS2yPCcIpygXn21lj1hc1kxagL82uc+ACjBohrxpllVD8ItkPTLTLdq1zjTZQ==",
+  "dgSpecHash": "rYFahYHFR7j/F9jSTeTjLP5rf7R2ltLGho9RtK+0hHk8X0LGTAM5w8Nl/dVpEo2IhRS4/L+JSQfr1xva+/Q8Aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\JobOffers.csproj",
+  "projectFilePath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hirvio\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Hirvio\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

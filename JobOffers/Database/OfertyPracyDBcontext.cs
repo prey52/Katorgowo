@@ -4,16 +4,17 @@ using Microsoft.EntityFrameworkCore;
 using System.Data.Common;
 using System.Xml;
 using System.Security.Cryptography.X509Certificates;
+using JobOffers.Models;
 
-namespace JobOffers.Models
+namespace JobOffers.Database
 {
-    public class JobOffersDBcontext : DbContext
+    public class OfertyPracyDBcontext : DbContext
     {
-        public JobOffersDBcontext(DbContextOptions<JobOffersDBcontext> options) : base(options)
+        public OfertyPracyDBcontext(DbContextOptions<OfertyPracyDBcontext> options) : base(options)
         {
 
         }
-        public DbSet<JobOffer> JobOffers { get; set; }
+        public DbSet<OfertyPracyModel> JobOffers { get; set; }
 
         /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

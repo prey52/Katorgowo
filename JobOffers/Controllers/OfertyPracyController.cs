@@ -6,7 +6,7 @@ namespace JobOffers.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JobOffersController : ControllerBase
+    public class OfertyPracyController : ControllerBase
     {
         // GET: api/<JobOffersController>
         [HttpGet]

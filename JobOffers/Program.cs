@@ -1,5 +1,5 @@
 //JobOffers
-using JobOffers.Models;
+using JobOffers.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<JobOffersDBcontext>(option =>
+builder.Services.AddDbContext<OfertyPracyDBcontext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("aspAZ"))
     );
 
