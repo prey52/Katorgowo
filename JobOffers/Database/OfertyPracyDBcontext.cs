@@ -14,7 +14,7 @@ namespace JobOffers.Database
         {
 
         }
-        public DbSet<OfertyPracyModel> JobOffers { get; set; }
+        public DbSet<OfertyPracyModel> OfertyPracy { get; set; }
 
         /*protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
