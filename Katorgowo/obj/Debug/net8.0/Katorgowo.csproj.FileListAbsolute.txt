@@ -785,3 +785,4 @@ C:\Users\pauli\source\repos\Katorgowo\Katorgowo\obj\Debug\net8.0\refint\Katorgow
 C:\Users\pauli\source\repos\Katorgowo\Katorgowo\obj\Debug\net8.0\Katorgowo.pdb
 C:\Users\pauli\source\repos\Katorgowo\Katorgowo\obj\Debug\net8.0\Katorgowo.genruntimeconfig.cache
 C:\Users\pauli\source\repos\Katorgowo\Katorgowo\obj\Debug\net8.0\ref\Katorgowo.dll
+C:\Users\Hirvio\source\repos\Katorgowo\Katorgowo\obj\Debug\net8.0\Katorgowo.sourcelink.json
