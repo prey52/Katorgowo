@@ -7,44 +7,44 @@
       "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\data\\katorgowodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\contracttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\contracttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\appointmentcalendar\\appointmentcalendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\appointmentcalendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\controllers\\jobofferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\controllers\\jobofferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\contracttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\contracttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\workingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\workingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\controllers\\jobofferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\controllers\\jobofferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\migrations\\20240516134611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\migrations\\20240516134611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\workingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\workingtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\joboffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\migrations\\20240516134611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F779F595-D8B6-4132-B350-7C5A575B1978}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\migrations\\20240516134611_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ContractType.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\ContractType.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\ContractType.cs",
@@ -103,11 +103,11 @@
               "RelativeToolTip": "JobOffers\\DataBase\\ContractType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:02:11.794Z"
+              "WhenOpened": "2024-05-18T20:18:16.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\Status.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\Status.cs",
@@ -115,11 +115,11 @@
               "RelativeToolTip": "JobOffers\\DataBase\\Status.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:01:21.038Z"
+              "WhenOpened": "2024-05-18T20:18:16.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AppointmentCalendar.csproj",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
               "RelativeDocumentMoniker": "AppointmentCalendar\\AppointmentCalendar.csproj",
@@ -131,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "JobOffersController.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Controllers\\JobOffersController.cs",
               "RelativeDocumentMoniker": "JobOffers\\Controllers\\JobOffersController.cs",
@@ -139,11 +139,11 @@
               "RelativeToolTip": "JobOffers\\Controllers\\JobOffersController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:34:08.708Z"
+              "WhenOpened": "2024-05-18T20:18:16.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "WorkingTime.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\WorkingTime.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\WorkingTime.cs",
@@ -151,11 +151,11 @@
               "RelativeToolTip": "JobOffers\\DataBase\\WorkingTime.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:33:43.932Z"
+              "WhenOpened": "2024-05-18T20:18:16.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\Category.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\Category.cs",
@@ -163,11 +163,11 @@
               "RelativeToolTip": "JobOffers\\DataBase\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:23:08.147Z"
+              "WhenOpened": "2024-05-18T20:18:16.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "JobOffer.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\JobOffer.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\JobOffer.cs",
@@ -175,7 +175,7 @@
               "RelativeToolTip": "JobOffers\\DataBase\\JobOffer.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:22:35.6Z"
+              "WhenOpened": "2024-05-18T20:18:16.238Z"
             },
             {
               "$type": "Document",
@@ -187,11 +187,11 @@
               "RelativeToolTip": "JobOffers\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:15:48.263Z"
+              "WhenOpened": "2024-05-18T20:18:16.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "JobOffersDBcontext.cs",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\JobOffersDBcontext.cs",
               "RelativeDocumentMoniker": "JobOffers\\DataBase\\JobOffersDBcontext.cs",
@@ -199,7 +199,7 @@
               "RelativeToolTip": "JobOffers\\DataBase\\JobOffersDBcontext.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAmwEQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:21:37.073Z"
+              "WhenOpened": "2024-05-18T20:18:16.243Z"
             },
             {
               "$type": "Document",
@@ -211,7 +211,7 @@
               "RelativeToolTip": "JobOffers\\Migrations\\20240516134611_initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:46:11.85Z"
+              "WhenOpened": "2024-05-18T20:18:16.246Z"
             }
           ]
         }

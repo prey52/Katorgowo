@@ -12,7 +12,7 @@ public class KatorgowoDBContext : IdentityDbContext<DBUser>
 
     public KatorgowoDBContext(DbContextOptions<KatorgowoDBContext> options) : base(options)
     {
-        _httpClient = httpClient;
+
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
