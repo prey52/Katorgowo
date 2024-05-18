@@ -1,0 +1,59 @@
+﻿@model IEnumerable<RecruitmentProcess.ViewModels.User.ListaAplikacjiViewModel>
+
+@{
+    ViewData["Title"] = "ListaAplikacjiView";
+}
+
+<h1>ListaAplikacjiView</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TytulOgloszenia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NazwaFirmy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogoFirmy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataAplikacji)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TytulOgloszenia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NazwaFirmy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LogoFirmy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAplikacji)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
