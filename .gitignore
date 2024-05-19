@@ -20,4 +20,9 @@
 /.vs/Katorgowo/FileContentIndex/807b2279-b6d3-4dee-b9e7-a76e4274a39a.vsidx
 /.vs/Katorgowo/FileContentIndex/b0a6885a-4246-455a-8753-0c774de48ca1.vsidx
 /.vs/Katorgowo/FileContentIndex/e7a7806b-d62b-4ed9-b8f9-10eda172280e.vsidx
+<<<<<<< HEAD
 /.vs/Katorgowo/FileContentIndex/fcb64353-588c-4ac3-9df7-b827d5a23463.vsidx
+=======
+/.vs/Katorgowo/FileContentIndex/fcb64353-588c-4ac3-9df7-b827d5a23463.vsidx
+/RecruitmentProcess/obj/Debug/net8.0/RecruitmentProcess.csproj.AssemblyReference.cache
+>>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
