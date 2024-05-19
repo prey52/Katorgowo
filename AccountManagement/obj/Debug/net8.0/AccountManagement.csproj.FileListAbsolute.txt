@@ -28,3 +28,4 @@ C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\refint
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.pdb
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.genruntimeconfig.cache
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\ref\AccountManagement.dll
+C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.sourcelink.json

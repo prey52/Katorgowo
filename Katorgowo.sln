@@ -5,15 +5,17 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Katorgowo", "Katorgowo\Katorgowo.csproj", "{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountManagement", "AccountManagement\AccountManagement.csproj", "{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountManagement", "AccountManagement\AccountManagement.csproj", "{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobOffers", "JobOffers\JobOffers.csproj", "{F779F595-D8B6-4132-B350-7C5A575B1978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentCalendar", "AppointmentCalendar\AppointmentCalendar.csproj", "{316A4EDC-6D70-489C-9146-FA1F55C743A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentCalendar", "AppointmentCalendar\AppointmentCalendar.csproj", "{316A4EDC-6D70-489C-9146-FA1F55C743A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentProcess", "RecruitmentProcess\RecruitmentProcess.csproj", "{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentProcess", "RecruitmentProcess\RecruitmentProcess.csproj", "{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{A20570F6-7E12-4301-8DDF-B2CDDFD34671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{A20570F6-7E12-4301-8DDF-B2CDDFD34671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications", "Notifications\Notifications.csproj", "{0E8D4991-F21D-493E-9483-9246470BFE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobOffers", "JobOffers\JobOffers.csproj", "{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +31,6 @@ Global
 		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F779F595-D8B6-4132-B350-7C5A575B1978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F779F595-D8B6-4132-B350-7C5A575B1978}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F779F595-D8B6-4132-B350-7C5A575B1978}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F779F595-D8B6-4132-B350-7C5A575B1978}.Release|Any CPU.Build.0 = Release|Any CPU
 		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316A4EDC-6D70-489C-9146-FA1F55C743A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +43,14 @@ Global
 		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A20570F6-7E12-4301-8DDF-B2CDDFD34671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8D4991-F21D-493E-9483-9246470BFE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8D4991-F21D-493E-9483-9246470BFE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8D4991-F21D-493E-9483-9246470BFE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8D4991-F21D-493E-9483-9246470BFE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

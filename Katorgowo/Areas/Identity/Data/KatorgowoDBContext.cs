@@ -8,6 +8,8 @@ namespace Katorgowo.Areas.Identity.Data;
 
 public class KatorgowoDBContext : IdentityDbContext<DBUser>
 {
+    private readonly HttpClient _httpClient;
+
     public KatorgowoDBContext(DbContextOptions<KatorgowoDBContext> options) : base(options)
     {
 

@@ -19,6 +19,11 @@ builder.Services.AddDefaultIdentity<DBUser>(options =>
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<KatorgowoDBContext>();
 
+//http clinet
+builder.Services.AddHttpClient();
+
+
+//services.AddHttpClient();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
