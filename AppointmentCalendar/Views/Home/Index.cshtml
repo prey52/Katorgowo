@@ -1,8 +1,32 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Kalendarz";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Styl FullCalendar -->
+<link href="~/lib/fullcalendar/core/main.css" rel="stylesheet" />
+<link href="~/lib/fullcalendar/daygrid/main.css" rel="stylesheet" />
+
+<!-- Pliki JavaScript FullCalendar -->
+<script src="~/lib/fullcalendar/core/main.js"></script>
+<script src="~/lib/fullcalendar/interaction/main.js"></script>
+<script src="~/lib/fullcalendar/daygrid/main.js"></script>
+
+<h1>Kalendarz</h1>
+
+<div id="kalendarz"></div>
+
+@section scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var kalendarzEl = document.getElementById('kalendarz');
+
+            var kalendarz = new FullCalendar.Calendar(kalendarzEl, {
+                plugins: ['dayGrid', 'interaction'],
+                initialView: 'dayGridMonth',
+                events: '/Kalendarz/Wydarzenia' // ścieżka do pobierania wydarzeń z kontrolera
+            });
+
+            kalendarz.render();
+        });
+    </script>
+}
