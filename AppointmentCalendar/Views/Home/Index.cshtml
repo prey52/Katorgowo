@@ -2,31 +2,94 @@
     ViewData["Title"] = "Kalendarz";
 }
 
-<!-- Styl FullCalendar -->
-<link href="~/lib/fullcalendar/core/main.css" rel="stylesheet" />
-<link href="~/lib/fullcalendar/daygrid/main.css" rel="stylesheet" />
-
-<!-- Pliki JavaScript FullCalendar -->
-<script src="~/lib/fullcalendar/core/main.js"></script>
-<script src="~/lib/fullcalendar/interaction/main.js"></script>
-<script src="~/lib/fullcalendar/daygrid/main.js"></script>
-
-<h1>Kalendarz</h1>
-
-<div id="kalendarz"></div>
-
-@section scripts {
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <script src='~/lib/fullcalendar/index.global.js'></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <div id='calendar'></div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dodaj nowe wydarzenie</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="eventForm">
+                        <div class="form-group">
+                            <label for="eventName">Nazwa wydarzenia:</label>
+                            <input type="text" class="form-control" id="eventName" name="eventName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventStart">Data rozpoczęcia:</label>
+                            <input type="datetime-local" class="form-control" id="eventStart" name="eventStart" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventEnd">Data zakończenia:</label>
+                            <input type="datetime-local" class="form-control" id="eventEnd" name="eventEnd" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Dodaj</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/fullcalendar/core/main.js"></script>
+    <script src="~/lib/fullcalendar/daygrid/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            var kalendarzEl = document.getElementById('kalendarz');
-
-            var kalendarz = new FullCalendar.Calendar(kalendarzEl, {
-                plugins: ['dayGrid', 'interaction'],
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
-                events: '/Kalendarz/Wydarzenia' // ścieżka do pobierania wydarzeń z kontrolera
+                selectable: true,
+                selectMirror: true,
+                dayMaxEvents: true,
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                },
+                dateClick: function (info) {
+                    // Przechwytuje kliknięcie w dzień
+                    calendar.changeView('timeGridDay', info.dateStr); // Przechodzi do widoku dnia
+                },
+                events: '/Home/GetEvents',
+                select: function (info) {
+                    // Przechwytuje zaznaczenie obszaru (kliknięcie na godzinę)
+                    $('#exampleModal').modal('show'); // Wyświetla modal z formularzem dodawania wydarzenia
+                    $('#eventStart').val(info.startStr); // Ustawia datę początkową w formularzu
+                    $('#eventEnd').val(info.endStr); // Ustawia datę końcową w formularzu
+                }
             });
+            calendar.render();
 
-            kalendarz.render();
+            // Obsługa formularza dodawania wydarzenia
+            $('#eventForm').submit(function (e) {
+                e.preventDefault();
+                var formData = $(this).serialize();
+                $.ajax({
+                    type: 'POST',
+                    url: '/Home/AddEvent',
+                    data: formData,
+                    success: function (response) {
+                        if (response.success) {
+                            calendar.refetchEvents();
+                            $('#exampleModal').modal('hide');
+                        } else {
+                            alert('Wystąpił błąd podczas dodawania wydarzenia.');
+                        }
+                    }
+                });
+            });
         });
     </script>
-}
+</body>
+</html>

@@ -59,3 +59,4 @@ C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar\obj\Debug\net8.0\scope
 C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar\obj\Debug\net8.0\scopedcss\projectbundle\AppointmentCalendar.bundle.scp.css
 C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar\obj\Debug\net8.0\AppointmentCalendar.genruntimeconfig.cache
 C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar\obj\Debug\net8.0\ref\AppointmentCalendar.dll
+C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar\bin\Debug\net8.0\AppointmentCalendar.pdb

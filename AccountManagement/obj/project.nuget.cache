@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LwmGXAYULzOvMVAW8kndT9Q9AW7r5RC3LKRwWAR59JgC3pJ+727adAvGKj0Zna1x7sYghSFz+yTq5LGdb5lgYw==",
+  "dgSpecHash": "XLSCnLqIGb89SvZr1WWwlrT7r4th9jU8VzNO/TGgitAJAkPB8TjRGq+pNiZ0LBnblRUt0ksak51nIPFPGiDbIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
+  "projectFilePath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hirvio\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
   ],
   "logs": []
 }

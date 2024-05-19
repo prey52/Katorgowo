@@ -240,23 +240,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hirvio\\.nuget\\packages\\": {},
+    "C:\\Users\\pauli\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
+      "projectUniqueName": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
       "projectName": "AppointmentCalendar",
-      "projectPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
-      "packagesPath": "C:\\Users\\Hirvio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\",
+      "projectPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
+      "packagesPath": "C:\\Users\\pauli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hirvio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pauli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -265,6 +265,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

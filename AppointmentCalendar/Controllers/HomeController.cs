@@ -1,32 +1,60 @@
-using AppointmentCalendar.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using System;
+using System.Collections.Generic;
 
-namespace AppointmentCalendar.Controllers
+public class HomeController : Controller
 {
-    public class HomeController : Controller
+    private static List<EventViewModel> events = new List<EventViewModel>();
+    private static int eventIdCounter = 1;
+
+    public IActionResult Index()
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+        return View();
     }
+
+    [HttpPost]
+    public IActionResult AddEvent(EventViewModel model)
+    {
+        model.Id = eventIdCounter++;
+        events.Add(model);
+        return Json(new { success = true, eventId = model.Id });
+    }
+
+    [HttpPost]
+    public IActionResult EditEvent(EventViewModel model)
+    {
+        var existingEvent = events.Find(e => e.Id == model.Id);
+        if (existingEvent != null)
+        {
+            existingEvent.Title = model.Title;
+            existingEvent.Start = model.Start;
+            existingEvent.End = model.End;
+        }
+        return Json(new { success = true });
+    }
+
+    [HttpPost]
+    public IActionResult DeleteEvent(int id)
+    {
+        var existingEvent = events.Find(e => e.Id == id);
+        if (existingEvent != null)
+        {
+            events.Remove(existingEvent);
+        }
+        return Json(new { success = true });
+    }
+
+    [HttpGet]
+    public IActionResult GetEvents()
+    {
+        return Json(events);
+    }
+}
+
+public class EventViewModel
+{
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public DateTime Start { get; set; }
+    public DateTime End { get; set; }
 }
