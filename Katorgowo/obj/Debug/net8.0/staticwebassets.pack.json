@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Katorgowo.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
+      "PackagePath": "staticwebassets\\css\\ListaOgloszen.css"
+    },
+    {
       "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\images.jpg",
+      "PackagePath": "staticwebassets\\images.jpg"
     },
     {
       "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\js\\site.js",

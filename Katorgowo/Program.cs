@@ -22,8 +22,6 @@ builder.Services.AddDefaultIdentity<DBUser>(options =>
 //http clinet
 builder.Services.AddHttpClient();
 
-
-//services.AddHttpClient();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

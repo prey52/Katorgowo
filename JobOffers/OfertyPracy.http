@@ -1,6 +1,7 @@
-@JobOffers_HostAddress = http://localhost:5213
+@OfertyPracy_HostAddress = http://localhost:7029
 
-GET {{JobOffers_HostAddress}}/weatherforecast/
+//GET {{OfertyPracy_HostAddress}}/api/OfertyPracy
+GET https://localhost:7029/api/OfertyPracy/
 Accept: application/json
 
 ###

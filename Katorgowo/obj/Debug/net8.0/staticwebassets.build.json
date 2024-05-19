@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bRXRa2r2yhDlKneaNyrae1ZFhTKpNwhqclZxA/EkwIs=",
+  "Hash": "73dveNaht97r/ulhJNBxWMtVJAXkcN7FxXa1KE4Ta2Q=",
   "Source": "Katorgowo",
   "BasePath": "_content/Katorgowo",
   "Mode": "Default",
@@ -1195,6 +1195,25 @@
       "OriginalItemSpec": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Katorgowo.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "css/ListaOgloszen.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ListaOgloszen.css"
+    },
+    {
       "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
       "SourceId": "Katorgowo",
       "SourceType": "Discovered",
@@ -1231,6 +1250,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\images.jpg",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "images.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images.jpg"
     },
     {
       "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\js\\site.js",
