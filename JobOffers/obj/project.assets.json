@@ -4574,31 +4574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pauli\\.nuget\\packages\\": {},
+    "C:\\Users\\Hirvio\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\JobOffers.csproj",
-      "projectName": "JobOffers",
-      "projectPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\JobOffers.csproj",
-      "packagesPath": "C:\\Users\\pauli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.csproj",
       "projectName": "OfertyPracy",
       "projectPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.csproj",
       "packagesPath": "C:\\Users\\Hirvio\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\obj\\",
->>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pauli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hirvio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4607,7 +4599,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4676,5 +4667,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Wystąpił problem podczas czytania pliku pamięci podręcznej C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

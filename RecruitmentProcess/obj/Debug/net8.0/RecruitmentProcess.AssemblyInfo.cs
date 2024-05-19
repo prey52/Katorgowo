@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecruitmentProcess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeac00cfd92a9291a139e840e19004c4da85dd50")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39da7cd1b9e1748a32355ce76ec1f00973c81db1")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecruitmentProcess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecruitmentProcess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

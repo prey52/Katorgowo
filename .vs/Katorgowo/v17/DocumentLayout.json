@@ -1,227 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\",
+  "WorkspaceRootPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\wwwroot\\css\\listaogloszen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\wwwroot\\css\\listaogloszen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-=======
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\ofertypracy\\userlistaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\ofertypracy\\userlistaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\appointmentcalendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\appointmentcalendar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\controllers\\kalendarzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\controllers\\kalendarzcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\JobOffers.csproj|solutionrelative:joboffers\\database\\joboffersdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\rekruter\\szczgolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\rekruter\\szczgolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\models\\rekrutacjamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\models\\rekrutacjamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\user\\szczegolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\user\\szczegolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\admin\\zgloszenieview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\admin\\zgloszenieview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\user\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\user\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\rekruter\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\rekruter\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\admin\\listazgloszenview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\admin\\listazgloszenview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\admin\\szczegolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\admin\\szczegolyaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\views\\admin\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\views\\admin\\listaaplikacjiview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\admin\\listazgloszenviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\admin\\listazgloszenviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\admin\\zgloszenieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\admin\\zgloszenieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\models\\zgloszeniamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\models\\zgloszeniamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\rekruter\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\rekruter\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\rekruter\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\rekruter\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\user\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\user\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\user\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\user\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\admin\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\admin\\szczegolyaplikacji.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\viewmodels\\admin\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\viewmodels\\admin\\listaaplikacjiviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\ofertypracy.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|solutionrelative:joboffers\\ofertypracy.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\data\\katorgowodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\data\\katorgowodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\data\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\data\\dbuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\katorgowo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\katorgowo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 !     \u0022     ",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       0 !     \u0022     "
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\katorgowo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\accountmanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|solutionrelative:accountmanagement\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\accountmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|solutionrelative:accountmanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\accountmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|solutionrelative:accountmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\accountmanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2087D0C-C25F-474E-BDCD-6CBA6B15B418}|AccountManagement\\AccountManagement.csproj|solutionrelative:accountmanagement\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\recruitmentprocess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:recruitmentprocess\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Migrations\\20240518211005_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JobOffers\\Migrations\\20240518211005_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 242f91e74334d413b4278ca7637b839263440179
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\ofertypracy\\user\\listaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\ofertypracy\\user\\listaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-=======
       "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\controllers\\ofertypracycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|solutionrelative:joboffers\\controllers\\ofertypracycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\models\\ofertypracymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|solutionrelative:joboffers\\models\\ofertypracymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
->>>>>>> 242f91e74334d413b4278ca7637b839263440179
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\szczegolyoferty\\userszczegolyoferty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\szczegolyoferty\\userszczegolyoferty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -231,129 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 0,
-=======
-          "SelectedChildIndex": 7,
->>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAMESAAAAAAAAAAAAAMgSAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-05-19T00:22:46.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KalendarzController.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Controllers\\KalendarzController.cs",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\Controllers\\KalendarzController.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Controllers\\KalendarzController.cs",
-              "RelativeToolTip": "AppointmentCalendar\\Controllers\\KalendarzController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwBQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T00:21:00.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\appsettings.Development.json",
-              "RelativeToolTip": "AppointmentCalendar\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-19T00:11:15.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppointmentCalendar",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\AppointmentCalendar.csproj",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
-              "RelativeToolTip": "AppointmentCalendar\\AppointmentCalendar.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-18T23:55:50.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AppointmentCalendar\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T23:55:21.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AppointmentCalendar\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAIwBwAAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T23:50:41.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AppointmentCalendar\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-18T23:47:21.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "JobOffersDBcontext.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\JobOffersDBcontext.cs",
-              "RelativeDocumentMoniker": "JobOffers\\DataBase\\JobOffersDBcontext.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\DataBase\\JobOffersDBcontext.cs",
-              "RelativeToolTip": "JobOffers\\DataBase\\JobOffersDBcontext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T20:43:24.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RekrutacjaModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\RekrutacjaModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Models\\RekrutacjaModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\RekrutacjaModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\Models\\RekrutacjaModel.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA7wA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:23:05.379Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -368,529 +50,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SzczgolyAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Rekruter\\SzczgolyAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Rekruter\\SzczgolyAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Rekruter\\SzczgolyAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Rekruter\\SzczgolyAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:09:03.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SzczegolyAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\User\\SzczegolyAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\User\\SzczegolyAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\User\\SzczegolyAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\User\\SzczegolyAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:11:52.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ZgloszenieView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ZgloszenieView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Admin\\ZgloszenieView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ZgloszenieView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Admin\\ZgloszenieView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:06:50.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ListaAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\User\\ListaAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\User\\ListaAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\User\\ListaAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\User\\ListaAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:10:43.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListaAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Rekruter\\ListaAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Rekruter\\ListaAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Rekruter\\ListaAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Rekruter\\ListaAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:08:07.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ListaZgloszenView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ListaZgloszenView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Admin\\ListaZgloszenView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ListaZgloszenView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Admin\\ListaZgloszenView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:05:38.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SzczegolyAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\SzczegolyAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Admin\\SzczegolyAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\SzczegolyAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Admin\\SzczegolyAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:04:20.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ListaAplikacjiView.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ListaAplikacjiView.cshtml",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Views\\Admin\\ListaAplikacjiView.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Views\\Admin\\ListaAplikacjiView.cshtml",
-              "RelativeToolTip": "RecruitmentProcess\\Views\\Admin\\ListaAplikacjiView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T22:01:45.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ZgloszenieViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ZgloszenieViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Admin\\ZgloszenieViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ZgloszenieViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Admin\\ZgloszenieViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:52:16.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SzczegolyAplikacji.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Rekruter\\SzczegolyAplikacji.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Rekruter\\SzczegolyAplikacji.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Rekruter\\SzczegolyAplikacji.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Rekruter\\SzczegolyAplikacji.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:51:37.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ZgloszeniaModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\ZgloszeniaModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Models\\ZgloszeniaModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\ZgloszeniaModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\Models\\ZgloszeniaModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:09:01.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ListaZgloszenViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ListaZgloszenViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Admin\\ListaZgloszenViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ListaZgloszenViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Admin\\ListaZgloszenViewModel.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:52:41.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ListaAplikacjiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Rekruter\\ListaAplikacjiViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Rekruter\\ListaAplikacjiViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Rekruter\\ListaAplikacjiViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Rekruter\\ListaAplikacjiViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:49:30.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "SzczegolyAplikacji.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\User\\SzczegolyAplikacji.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\User\\SzczegolyAplikacji.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\User\\SzczegolyAplikacji.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\User\\SzczegolyAplikacji.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:49:17.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SzczegolyAplikacji.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\SzczegolyAplikacji.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Admin\\SzczegolyAplikacji.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\SzczegolyAplikacji.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Admin\\SzczegolyAplikacji.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:47:43.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ListaAplikacjiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\User\\ListaAplikacjiViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\User\\ListaAplikacjiViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\User\\ListaAplikacjiViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\User\\ListaAplikacjiViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:50:21.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ListaAplikacjiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ListaAplikacjiViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\ViewModels\\Admin\\ListaAplikacjiViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\ViewModels\\Admin\\ListaAplikacjiViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\ViewModels\\Admin\\ListaAplikacjiViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:46:07.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "RecruitmentProcess\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:10:23.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T21:02:48.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T21:02:46.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Katorgowo\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:02:43.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Katorgowo\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T20:45:09.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Program.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Program.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Program.cs",
-              "RelativeToolTip": "Katorgowo\\Program.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAIBJwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T00:17:26.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T21:01:22.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T16:05:32.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-12T16:05:35.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "KatorgowoDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Data\\KatorgowoDBContext.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Data\\KatorgowoDBContext.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Data\\KatorgowoDBContext.cs",
-              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Data\\KatorgowoDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:01:19.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "DBUser.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Data\\DBUser.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Data\\DBUser.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Data\\DBUser.cs",
-              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Data\\DBUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:01:17.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AccountManagement.sourcelink.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json",
-              "RelativeDocumentMoniker": "AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json",
-              "RelativeToolTip": "AccountManagement\\obj\\Debug\\net8.0\\AccountManagement.sourcelink.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAACfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T20:39:11.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Katorgowo.csproj",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Katorgowo.csproj",
-              "RelativeDocumentMoniker": "Katorgowo\\Katorgowo.csproj",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\Katorgowo.csproj",
-              "RelativeToolTip": "Katorgowo\\Katorgowo.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-11T00:19:17.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AppointmentCalendar.dll",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "RelativeToolTip": "AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
-              "WhenOpened": "2024-05-12T20:39:37.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "RelativeToolTip": "JobOffers\\bin\\Debug\\net8.0\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T20:39:55.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AppointmentCalendar.dll - 1 [Neutralny] - Version",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "RelativeDocumentMoniker": "AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll - 1 [Neutralny] - Version",
-              "RelativeToolTip": "AppointmentCalendar\\obj\\Debug\\net8.0\\ref\\AppointmentCalendar.dll - 1 [Neutralny] - Version",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
-              "WhenOpened": "2024-05-12T20:39:43.035Z",
-              "EditorCaption": " - 1 [Neutralny] - Version"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "AccountManagement\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "AccountManagement\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:01:26.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AccountManagement\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AccountManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:01:20.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\appsettings.json",
-              "RelativeDocumentMoniker": "Katorgowo\\appsettings.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\appsettings.json",
-              "RelativeToolTip": "Katorgowo\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T15:52:58.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "AccountManagement\\appsettings.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\appsettings.json",
-              "RelativeToolTip": "AccountManagement\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T15:52:44.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "AccountManagement\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\appsettings.Development.json",
-              "RelativeToolTip": "AccountManagement\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T15:52:42.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\appsettings.json",
-              "RelativeDocumentMoniker": "RecruitmentProcess\\appsettings.json",
-              "ToolTip": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\RecruitmentProcess\\appsettings.json",
-              "RelativeToolTip": "RecruitmentProcess\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-12T15:52:30.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Hirvio\\source\\repos\\Katorgowo\\Program.cs",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Hirvio\\source\\repos\\Katorgowo\\Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T23:50:34.59Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -899,9 +58,6 @@
             },
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-=======
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -910,55 +66,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListaOgloszen.css",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
-              "RelativeDocumentMoniker": "Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
-              "RelativeToolTip": "Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-05-19T01:56:26.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListaOgloszen.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\User\\ListaOgloszen.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\User\\ListaOgloszen.cshtml",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\User\\ListaOgloszen.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\User\\ListaOgloszen.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T01:49:09.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-19T01:36:02.714Z",
+              "WhenOpened": "2024-05-19T16:18:01.537Z",
               "EditorCaption": ""
-=======
-              "DocumentIndex": 3,
-              "Title": "OfertyPracyModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Models\\OfertyPracyModel.cs",
-              "RelativeDocumentMoniker": "JobOffers\\Models\\OfertyPracyModel.cs",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Models\\OfertyPracyModel.cs",
-              "RelativeToolTip": "JobOffers\\Models\\OfertyPracyModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Katorgowo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Katorgowo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIAwwDIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T21:04:23.737Z"
->>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
->>>>>>> 242f91e74334d413b4278ca7637b839263440179
+              "WhenOpened": "2024-05-19T15:39:03.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserListaOgloszen.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
+              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T16:16:40.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfertyPracy.http",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.http",
+              "RelativeDocumentMoniker": "JobOffers\\OfertyPracy.http",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\OfertyPracy.http",
+              "RelativeToolTip": "JobOffers\\OfertyPracy.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-19T16:10:23.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfertyPracyController.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Controllers\\OfertyPracyController.cs",
+              "RelativeDocumentMoniker": "JobOffers\\Controllers\\OfertyPracyController.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Controllers\\OfertyPracyController.cs",
+              "RelativeToolTip": "JobOffers\\Controllers\\OfertyPracyController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:43:59.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserSzczegolyOferty.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\SzczegolyOferty\\UserSzczegolyOferty.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Views\\SzczegolyOferty\\UserSzczegolyOferty.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\SzczegolyOferty\\UserSzczegolyOferty.cshtml",
+              "RelativeToolTip": "Katorgowo\\Views\\SzczegolyOferty\\UserSzczegolyOferty.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:31:47.793Z",
+              "EditorCaption": ""
             }
           ]
         }

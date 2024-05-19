@@ -62,8 +62,9 @@ namespace OfertyPracy.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Tytuł")
-                        .HasColumnType("int");
+                    b.Property<string>("Tytuł")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Wymagania")
                         .IsRequired()

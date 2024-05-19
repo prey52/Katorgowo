@@ -1,5 +1,7 @@
-﻿using JobOffers.Models;
+﻿using JobOffers.Database;
+using JobOffers.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,45 +12,30 @@ namespace JobOffers
     [ApiController]
     public class OfertyPracyController : ControllerBase
     {
-        // GET: api/<OfertyPracyController>
-        /*[HttpGet]
-        public IEnumerable<OfertyPracyModel> Get()
+        private readonly OfertyPracyDBcontext _dbcontext;
+
+        public OfertyPracyController(OfertyPracyDBcontext dbcontext)
         {
-
-            OfertyPracyModel test = new OfertyPracyModel(
-                1,2,"oczekujacy","ARPJS","Informatyka","pracuj dla nas żebyś miał co żreć nierobie",DateTime.Now, DateTime.Now,
-                DateTime.Now, "brak", "2137zł", "1/2", "UOP", "Owocowe czwartki");
-
-            return test;
-        }*/
+            _dbcontext = dbcontext;
+        }
 
         // GET: api/<OfertyPracyController>
         [HttpGet]
-        public IEnumerable<OfertyPracyModel> Get()
+        public async Task<IEnumerable<OfertyPracyModel>> Get()
         {
-            List<OfertyPracyModel> result = new List<OfertyPracyModel>();
+            List<OfertyPracyModel> list = await _dbcontext.OfertyPracy.ToListAsync();
 
-            OfertyPracyModel test = new OfertyPracyModel(
-                1,2,"oczekujacy","ARPJS","Informatyka","pracuj dla nas żebyś miał co żreć nierobie",DateTime.Now, DateTime.Now,
-                DateTime.Now, "brak", "420zł", "1/2", "UOP", "Owocowe czwartki");
-            result.Add(test);
-
-            OfertyPracyModel test2 = new OfertyPracyModel(
-                1,2,"zatwierdzony","JP2GMD","Finanse","to nieludzkie okolice",DateTime.Now, DateTime.Now,
-                DateTime.Now, "brak", "2137zł", "Pełen etat", "UOP", "kremówki");
-            result.Add(test2);
-
-
-            return result;
+            return list;
         }
 
 
 
         // GET api/<OfertyPracyController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<OfertyPracyModel> Get(int id)
         {
-            return "value";
+            OfertyPracyModel result = await _dbcontext.OfertyPracy.FindAsync(id);
+            return result;
         }
 
         // POST api/<OfertyPracyController>

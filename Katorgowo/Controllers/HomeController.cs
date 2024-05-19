@@ -33,13 +33,18 @@ namespace Katorgowo.Controllers
 
         public async Task<IActionResult> ListaOgloszen()
         {
-            List<OfertyPracyModel> ListaOfert = new List<OfertyPracyModel> ();
             var url = "https://localhost:7029/api/OfertyPracy";
-
+            List<OfertyPracyModel> ListaOfert = new List<OfertyPracyModel> ();
             var jobOffers = await _httpClient.GetFromJsonAsync<List<OfertyPracyModel>>(url);
+            return View("/Views/OfertyPracy/UserListaOgloszen.cshtml", jobOffers);
+        }
 
+        public async Task<IActionResult> Ogloszenie(int id)
+        {
+            var url = $"https://localhost:7029/api/OfertyPracy/{id}";
+            OfertyPracyModel oferta = await _httpClient.GetFromJsonAsync<OfertyPracyModel>(url);
 
-            return View("/Views/OfertyPracy/User/ListaOgloszen.cshtml", jobOffers);
+            return View("/Views/SzczegolyOferty/UserSzczegolyOferty.cshtml", oferta);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj": {}
+    "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj": {
+    "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
         "projectName": "AccountManagement",
-        "projectPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
-        "packagesPath": "C:\\Users\\pauli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AccountManagement\\obj\\",
+        "projectPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\AccountManagement.csproj",
+        "packagesPath": "C:\\Users\\Hirvio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AccountManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pauli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hirvio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
