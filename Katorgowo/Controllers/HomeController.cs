@@ -2,10 +2,8 @@ using Azure;
 using Katorgowo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
-using Newtonsoft.Json;
 using NuGet.Protocol;
 using System.Diagnostics;
-using System.Text.Json;
 
 namespace Katorgowo.Controllers
 {
@@ -18,7 +16,6 @@ namespace Katorgowo.Controllers
         {
             _logger = logger;
             _httpClient = httpClient;
-
         }
 
         public IActionResult Index()
@@ -30,12 +27,28 @@ namespace Katorgowo.Controllers
         {
             return View();
         }
+        public IActionResult DodajOgloszenie()
+        {
+            return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
+        }
+
+        public async void Wyslij(OfertyPracyModel model)
+        {
+            var url = "https://localhost:7029/api/OfertyPracy";
+
+            model.Status = "Oczekuj¹cy";
+            model.DataStworzenia = DateTime.Now;
+
+            await _httpClient.PostAsJsonAsync(url, model);
+
+            RedirectToAction("~");
+        }
 
         public async Task<IActionResult> ListaOgloszen()
         {
             var url = "https://localhost:7029/api/OfertyPracy";
-            List<OfertyPracyModel> ListaOfert = new List<OfertyPracyModel> ();
             var jobOffers = await _httpClient.GetFromJsonAsync<List<OfertyPracyModel>>(url);
+
             return View("/Views/OfertyPracy/UserListaOgloszen.cshtml", jobOffers);
         }
 
@@ -44,9 +57,9 @@ namespace Katorgowo.Controllers
             var url = $"https://localhost:7029/api/OfertyPracy/{id}";
             OfertyPracyModel oferta = await _httpClient.GetFromJsonAsync<OfertyPracyModel>(url);
 
-            return View("/Views/SzczegolyOferty/UserSzczegolyOferty.cshtml", oferta);
+            return View("/Views/OfertyPracy/UserSzczegolyOferty.cshtml", oferta);
         }
-
+         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

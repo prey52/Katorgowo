@@ -1,0 +1,75 @@
+﻿@model OfertyPracyModel
+
+@using Microsoft.AspNetCore.Identity
+@using Katorgowo.Areas.Identity.Data
+
+@namespace Katorgowo.Areas.Identity
+@inject SignInManager<DBUser> SignInManager
+@inject UserManager<DBUser> UserManager
+
+<form asp-action="Wyslij">
+    <!--ID ogłoszenia z autoamtu-->
+    <input asp-for="IdRekrutera" type="hidden" value="@UserManager.GetUserId(User)" />
+    <p>Tytuł ogłoszenia</p>
+    <input asp-for="Tytuł" type="text" placeholder="Tytuł ogłoszenia" />
+    <p>Kategoria</p>
+    <select asp-for="Kategoria">
+        <!--Walnąć wszystko z listy w pętli-->
+        <option>Informatyka</option>
+    </select>
+    <p>Opis</p>
+    <input asp-for="Opis" type="text" placeholder="Opis" />
+    <p>Ważność (w dniach)</p>
+    <input asp-for="WaznoscDni" type="number" placeholder="7"/>
+
+    <p>Wymagania</p>
+    <div id="requirements">
+         <!-- Dynamiczne pola tekstowe będą dodawane tutaj -->
+        <input asp-for="Wymagania" type="text" placeholder="Wymaganie">
+    </div>
+    <button type="button" id="add-requirement-btn">Dodaj wymaganie</button>
+
+    <p>Wynagrodzenie</p>
+    <input asp-for="Wynagrodzenie" type="text" placeholder="1000zł" />
+    <p>Wymiar pracy</p>
+    <select asp-for="WymiarPracy">
+        <!--Walnąć wszystko z listy w pętli-->
+        <option>1/2 etatu</option>
+    </select>
+    <p>Rodzaj umowy</p>
+    <select asp-for="RodzajUmowy">
+        <!--Walnąć wszystko z listy w pętli-->
+        <option>Umowa zlecenie</option>
+    </select>
+
+    <p>Benefity</p>
+    <div id="benefits">
+        <!-- Dynamiczne pola tekstowe będą dodawane tutaj -->
+        <input asp-for="Benefity" type="text" placeholder="benefit">
+    </div>
+    <button type="button" id="add-benefit-btn">Dodaj benefit</button>
+
+    <input type="submit" value="wyślij" />
+</form>
+
+<script>
+    //MUSI BYĆ POD FORMULARZEM BO INACZEJ RACZEJ NIE ZADZIAŁA
+    //tworzenie dodatkowych pól dla wymagań i benefitów
+    document.getElementById('add-requirement-btn').addEventListener('click', function () {
+        var input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = 'wymaganie';
+
+        var container = document.getElementById('requirements');
+        container.appendChild(input);
+    });
+
+    document.getElementById('add-benefit-btn').addEventListener('click', function () {
+        var input = document.createElement('input');
+        input.type = 'text';
+        input.placeholder = 'benefit';
+
+        var container = document.getElementById('benefits');
+        container.appendChild(input);
+    });
+</script>
