@@ -1,17 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Katorgowo.Areas.Identity.Data;
-using Microsoft.Extensions.DependencyInjection;
+using Katorgowo.Areas.Identity;
 
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("KatorgowoDBContextConnection") ?? 
-    throw new InvalidOperationException("Connection string 'KatorgowoDBContextConnection' not found.");
 
-//dbcontext
 builder.Services.AddDbContext<KatorgowoDBContext>(option =>
-    option.UseSqlServer(builder.Configuration.GetConnectionString("Katorgowo"))
-    );
+    option.UseSqlServer(builder.Configuration.GetConnectionString("KatorgowoKonta"))
+);
 
 //identity
 builder.Services.AddDefaultIdentity<DBUser>(options => 
@@ -82,6 +79,8 @@ using (var scope = app.Services.CreateScope())
         var user = new DBUser();
         user.UserName = email;
         user.Email = email;
+        user.FirstName = "admin";
+        user.LastName = "admin";
         await userManager.CreateAsync(user, password);
 
         await userManager.AddToRoleAsync(user, "Admin");
@@ -90,11 +89,3 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.Run();
-
-/*
-TODO:
-Poprawa:
--rola
--data
-
-*/

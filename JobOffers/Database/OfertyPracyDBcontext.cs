@@ -5,6 +5,7 @@ using System.Data.Common;
 using System.Xml;
 using System.Security.Cryptography.X509Certificates;
 using JobOffers.Models;
+using OfertyPracy.Database;
 
 namespace JobOffers.Database
 {
@@ -15,6 +16,20 @@ namespace JobOffers.Database
 
         }
         public DbSet<OfertyPracyModel> OfertyPracy { get; set; }
+        public DbSet<Benefity> Benefity { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            //jeden do wielu
+            modelBuilder.Entity<OfertyPracyModel>()
+                .HasMany(j => j.Benefity)
+                .WithOne(b => b.OfertaPracy)
+                .HasForeignKey(b => b.OfertaPracyId);
+        }
 
     }
+
+    
 }

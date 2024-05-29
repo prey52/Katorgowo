@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace Katorgowo.Areas.Identity.Data;
+namespace Katorgowo.Areas.Identity;
 
 // Add profile data for application users by adding properties to the DBUser class
 public class DBUser : IdentityUser

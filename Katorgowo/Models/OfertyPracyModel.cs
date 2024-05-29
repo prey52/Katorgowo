@@ -18,6 +18,6 @@ namespace Katorgowo.Models
         public string Wynagrodzenie { get; set; }
         public string WymiarPracy { get; set; }
         public string RodzajUmowy { get; set; }
-        public string Benefity { get; set; }
+        public ICollection<Benefity> Benefity { get; set; }
     }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Bq47HgdZijSaF9fe4BURwBWuI3XAq9ES2xEpkFn50Kdbi5cr9DnW0YqxgKgl48NF6NxBEr3mpD0N/ilDMyfpIQ==",
+  "dgSpecHash": "nVxk09I2wj9G+zyPpTCQK2hGC24pXDVybj/2su9a4Vf7OL/qd5oJ1LzA5DtpBOL2p+nEbThEsej6Aj3JYhM17g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Notifications\\Notifications.csproj",
+  "projectFilePath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Notifications\\Notifications.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+    "C:\\Users\\Hirvio\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
   ],
   "logs": []
 }

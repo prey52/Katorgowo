@@ -22,7 +22,7 @@ namespace Katorgowo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Katorgowo.Areas.Identity.Data.DBUser", b =>
+            modelBuilder.Entity("Katorgowo.Areas.Identity.DBUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -259,7 +259,7 @@ namespace Katorgowo.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Katorgowo.Areas.Identity.Data.DBUser", null)
+                    b.HasOne("Katorgowo.Areas.Identity.DBUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -268,7 +268,7 @@ namespace Katorgowo.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Katorgowo.Areas.Identity.Data.DBUser", null)
+                    b.HasOne("Katorgowo.Areas.Identity.DBUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -283,7 +283,7 @@ namespace Katorgowo.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Katorgowo.Areas.Identity.Data.DBUser", null)
+                    b.HasOne("Katorgowo.Areas.Identity.DBUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -292,7 +292,7 @@ namespace Katorgowo.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Katorgowo.Areas.Identity.Data.DBUser", null)
+                    b.HasOne("Katorgowo.Areas.Identity.DBUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

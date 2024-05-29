@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddDbContext<OfertyPracyDBcontext>(option =>
-    option.UseSqlServer(builder.Configuration.GetConnectionString("aspAZ"))
+    option.UseSqlServer(builder.Configuration.GetConnectionString("KatorgowoOfertyPracy"))
     );
 
 builder.Services.AddControllers();
