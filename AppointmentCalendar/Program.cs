@@ -1,7 +1,14 @@
+using AppointmentCalendar.Database;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<CalendarContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("KatorgowoKalendarz")));
 
 var app = builder.Build();
 
@@ -25,3 +32,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+
