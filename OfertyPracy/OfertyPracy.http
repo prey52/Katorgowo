@@ -1,0 +1,10 @@
+@OfertyPracy_HostAddress = http://localhost:7029
+
+###GET wszystkie oferty
+GET https://localhost:7029/api/OfertyPracy/
+Accept: application/json
+
+###GET oferta o podanym ID
+
+GET https://localhost:7029/api/OfertyPracy/2
+Accept: application/json
