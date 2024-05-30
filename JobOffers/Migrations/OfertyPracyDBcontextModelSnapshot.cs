@@ -30,21 +30,18 @@ namespace OfertyPracy.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Benefity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("DataDodania")
+                    b.Property<DateTime>("DataPublikacji")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("DataPublikacji")
+                    b.Property<DateTime>("DataStworzenia")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime>("DataWaznosci")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdRekrutera")
-                        .HasColumnType("int");
+                    b.Property<string>("IdRekrutera")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Kategoria")
                         .IsRequired()
@@ -66,9 +63,8 @@ namespace OfertyPracy.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Wymagania")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("WaznoscDni")
+                        .HasColumnType("int");
 
                     b.Property<string>("WymiarPracy")
                         .IsRequired()
@@ -81,6 +77,79 @@ namespace OfertyPracy.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("OfertyPracy");
+                });
+
+            modelBuilder.Entity("OfertyPracy.Database.OfertyPracyBenefity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("OfertaPracyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Opis")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OfertaPracyId");
+
+                    b.ToTable("Benefity");
+                });
+
+            modelBuilder.Entity("OfertyPracy.Database.OfertyPracyWymagania", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("OfertaPracyId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Opis")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("OfertaPracyId");
+
+                    b.ToTable("Wymagania");
+                });
+
+            modelBuilder.Entity("OfertyPracy.Database.OfertyPracyBenefity", b =>
+                {
+                    b.HasOne("JobOffers.Models.OfertyPracyModel", "OfertaPracy")
+                        .WithMany("Benefity")
+                        .HasForeignKey("OfertaPracyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OfertaPracy");
+                });
+
+            modelBuilder.Entity("OfertyPracy.Database.OfertyPracyWymagania", b =>
+                {
+                    b.HasOne("JobOffers.Models.OfertyPracyModel", "OfertaPracy")
+                        .WithMany("Wymagania")
+                        .HasForeignKey("OfertaPracyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OfertaPracy");
+                });
+
+            modelBuilder.Entity("JobOffers.Models.OfertyPracyModel", b =>
+                {
+                    b.Navigation("Benefity");
+
+                    b.Navigation("Wymagania");
                 });
 #pragma warning restore 612, 618
         }

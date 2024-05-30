@@ -1,4 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using Katorgowo.Areas.Identity.Data
+
+@namespace Katorgowo.Areas.Identity
+@inject SignInManager<DBUser> SignInManager
+@inject UserManager<DBUser> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -26,9 +33,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ListaOgloszen">Lista Ogłoszen</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ListaOgloszen">Lista ogłoszeń</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="DodajOgloszenie">Dodaj ogłoszenie</a>
+                        </li>
                     </ul>
                 </div>
                 <partial name="_LoginPartial" />

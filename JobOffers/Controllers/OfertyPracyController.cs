@@ -24,11 +24,8 @@ namespace JobOffers
         public async Task<IEnumerable<OfertyPracyModel>> Get()
         {
             List<OfertyPracyModel> list = await _dbcontext.OfertyPracy.ToListAsync();
-
             return list;
         }
-
-
 
         // GET api/<OfertyPracyController>/5
         [HttpGet("{id}")]
@@ -40,15 +37,18 @@ namespace JobOffers
 
         // POST api/<OfertyPracyController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] OfertyPracyModel model)
         {
+            model.Tytuł = "test";
+            _dbcontext.Add(model);
+            _dbcontext.SaveChangesAsync();
         }
 
         // PUT api/<OfertyPracyController>/5
-        [HttpPut("{id}")]
+        /*[HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
-        }
+        }*/
 
         // DELETE api/<OfertyPracyController>/5
         [HttpDelete("{id}")]

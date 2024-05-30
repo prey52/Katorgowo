@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l8f74Q4Xqy38D6kBqlZ4gXmXrzheaWjCYqQyEGU8MPLR2c0E/Q0lX8zMML1kkJ2yAYjtQ88QvcmxnJIpojiPUQ==",
+  "dgSpecHash": "dNPw5TXKp1yIdPxo9b38rUhDDRPVaV7Wb0iqsyOy4bMBpDNbsH0iJqhZbOSrF3pHr0xS37XOswf6ARt+pZ9log==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
+  "projectFilePath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\AppointmentCalendar\\AppointmentCalendar.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pauli\\.nuget\\packages\\fullcalendar\\3.9.0\\fullcalendar.3.9.0.nupkg.sha512",
-    "C:\\Users\\pauli\\.nuget\\packages\\jquery\\2.0.0\\jquery.2.0.0.nupkg.sha512",
-    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
-    "C:\\Users\\pauli\\.nuget\\packages\\moment.js\\2.9.0\\moment.js.2.9.0.nupkg.sha512"
+    "C:\\Users\\Hirvio\\.nuget\\packages\\fullcalendar\\3.9.0\\fullcalendar.3.9.0.nupkg.sha512",
+    "C:\\Users\\Hirvio\\.nuget\\packages\\jquery\\2.0.0\\jquery.2.0.0.nupkg.sha512",
+    "C:\\Users\\Hirvio\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\Hirvio\\.nuget\\packages\\moment.js\\2.9.0\\moment.js.2.9.0.nupkg.sha512"
   ],
   "logs": []
 }

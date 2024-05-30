@@ -4,32 +4,34 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Katorgowo.Areas.Identity.Data;
-
-public class KatorgowoDBContext : IdentityDbContext<DBUser>
+namespace Katorgowo.Areas.Identity.Data
 {
-    private readonly HttpClient _httpClient;
-
-    public KatorgowoDBContext(DbContextOptions<KatorgowoDBContext> options) : base(options)
+    public class KatorgowoDBContext : IdentityDbContext<DBUser>
     {
+        private readonly HttpClient _httpClient;
 
+        public KatorgowoDBContext(DbContextOptions<KatorgowoDBContext> options) : base(options)
+        {
+
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfiguration(new AppUserEntityConfiguration());
+        }
     }
-
-    protected override void OnModelCreating(ModelBuilder builder)
+    public class AppUserEntityConfiguration : IEntityTypeConfiguration<DBUser>
     {
-        base.OnModelCreating(builder);
-        builder.ApplyConfiguration(new AppUserEntityConfiguration());
+        public void Configure(EntityTypeBuilder<DBUser> builder)
+        {
+            builder.Property(x => x.FirstName).HasMaxLength(255);
+            builder.Property(x => x.LastName).HasMaxLength(255);
+            builder.Property(x => x.BirthDate);
+            builder.Property(x => x.CompanyName).HasMaxLength(255);
+            builder.Property(x => x.CompanyLogo);
+            builder.Property(x => x.CompanyLocalization).HasMaxLength(255);
+        }
     }
 }
-public class AppUserEntityConfiguration : IEntityTypeConfiguration<DBUser>
-{
-    public void Configure(EntityTypeBuilder<DBUser> builder)
-    {
-        builder.Property(x => x.FirstName).HasMaxLength(255);
-        builder.Property(x => x.LastName).HasMaxLength(255);
-        builder.Property(x => x.BirthDate);
-        builder.Property(x => x.CompanyName).HasMaxLength(255);
-        builder.Property(x => x.CompanyLogo);
-        builder.Property(x => x.CompanyLocalization).HasMaxLength(255);
-    }
-}
+
