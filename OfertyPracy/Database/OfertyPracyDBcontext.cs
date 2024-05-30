@@ -7,7 +7,7 @@ using System.Security.Cryptography.X509Certificates;
 using JobOffers.Models;
 using OfertyPracy.Database;
 
-namespace JobOffers.Database
+namespace OfertyPracy.Database
 {
     public class OfertyPracyDBcontext : DbContext
     {

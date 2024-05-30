@@ -1,4 +1,4 @@
-﻿using JobOffers.Database;
+﻿using OfertyPracy.Database;
 using JobOffers.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

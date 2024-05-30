@@ -1,5 +1,5 @@
 //JobOffers
-using JobOffers.Database;
+using OfertyPracy.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using Microsoft.Extensions.Configuration;

@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|solutionrelative:joboffers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\ofertypracy\\controllers\\ofertypracycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|solutionrelative:ofertypracy\\controllers\\ofertypracycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\ofertypracy\\migrations\\20240529225329_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|solutionrelative:ofertypracy\\migrations\\20240529225329_initial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\joboffers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|JobOffers\\OfertyPracy.csproj|solutionrelative:joboffers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\ofertypracy\\migrations\\ofertypracydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|solutionrelative:ofertypracy\\migrations\\ofertypracydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{52957DB3-6CB5-4FD2-B1D3-6CA0668BDE67}|RecruitmentProcess\\RecruitmentProcess.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\ofertypracy\\database\\ofertypracywymagania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30F0CC7F-0DB5-4C08-AD73-8FF56FDC62E3}|OfertyPracy\\OfertyPracy.csproj|solutionrelative:ofertypracy\\database\\ofertypracywymagania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,60 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\appsettings.json",
-              "RelativeDocumentMoniker": "JobOffers\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\appsettings.json",
-              "RelativeToolTip": "JobOffers\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T17:44:13.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\appsettings.json",
-              "RelativeDocumentMoniker": "Katorgowo\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\appsettings.json",
-              "RelativeToolTip": "Katorgowo\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T17:43:53.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\.dockerignore",
-              "RelativeDocumentMoniker": "Katorgowo\\.dockerignore",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\.dockerignore",
-              "RelativeToolTip": "Katorgowo\\.dockerignore",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-30T17:37:53.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-30T17:37:50.058Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -123,27 +63,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Program.cs",
-              "RelativeDocumentMoniker": "JobOffers\\Program.cs",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\JobOffers\\Program.cs*",
-              "RelativeToolTip": "JobOffers\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "OfertyPracyController.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Controllers\\OfertyPracyController.cs",
+              "RelativeDocumentMoniker": "OfertyPracy\\Controllers\\OfertyPracyController.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Controllers\\OfertyPracyController.cs",
+              "RelativeToolTip": "OfertyPracy\\Controllers\\OfertyPracyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T17:35:51.992Z",
+              "WhenOpened": "2024-05-30T18:28:24.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Katorgowo\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Katorgowo\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Title": "20240529225329_Initial.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Migrations\\20240529225329_Initial.Designer.cs",
+              "RelativeDocumentMoniker": "OfertyPracy\\Migrations\\20240529225329_Initial.Designer.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Migrations\\20240529225329_Initial.Designer.cs",
+              "RelativeToolTip": "OfertyPracy\\Migrations\\20240529225329_Initial.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T21:56:31.1Z",
+              "WhenOpened": "2024-05-30T18:28:21.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OfertyPracyDBcontextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Migrations\\OfertyPracyDBcontextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "OfertyPracy\\Migrations\\OfertyPracyDBcontextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Migrations\\OfertyPracyDBcontextModelSnapshot.cs",
+              "RelativeToolTip": "OfertyPracy\\Migrations\\OfertyPracyDBcontextModelSnapshot.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:28:11.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OfertyPracyWymagania.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Database\\OfertyPracyWymagania.cs",
+              "RelativeDocumentMoniker": "OfertyPracy\\Database\\OfertyPracyWymagania.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\OfertyPracy\\Database\\OfertyPracyWymagania.cs",
+              "RelativeToolTip": "OfertyPracy\\Database\\OfertyPracyWymagania.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:27:58.93Z",
               "EditorCaption": ""
             }
           ]
