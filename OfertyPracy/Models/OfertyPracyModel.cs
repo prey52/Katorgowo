@@ -2,7 +2,6 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using OfertyPracy.Database;
-using System.Text.Json.Serialization;
 using System.Diagnostics.CodeAnalysis;
 
 namespace JobOffers.Models
@@ -20,16 +19,14 @@ namespace JobOffers.Models
         public DateTime DataStworzenia { get; set; }
         public DateTime DataPublikacji { get; set; }
         public DateTime DataWaznosci { get; set; }
-        /*[JsonIgnore]
         [AllowNull]
-        public ICollection<OfertyPracyWymagania> Wymagania { get; set; }*/
+        public ICollection<OfertyPracyWymagania> Wymagania { get; set; } = new List<OfertyPracyWymagania>();
         public string Wynagrodzenie { get; set; }
         public string WymiarPracy { get; set; }
         public string RodzajUmowy { get; set; }
-        /*[JsonIgnore]
         [AllowNull]
-        public ICollection<OfertyPracyBenefity> Benefity { get; set; }*/
-        
+        public ICollection<OfertyPracyBenefity> Benefity { get; set; } = new List<OfertyPracyBenefity>();
+
         public OfertyPracyModel()
         {
 

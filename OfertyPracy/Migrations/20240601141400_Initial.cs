@@ -23,7 +23,6 @@ namespace OfertyPracy.Migrations
                     Kategoria = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Opis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DataStworzenia = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    WaznoscDni = table.Column<int>(type: "int", nullable: false),
                     DataPublikacji = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DataWaznosci = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Wynagrodzenie = table.Column<string>(type: "nvarchar(max)", nullable: false),

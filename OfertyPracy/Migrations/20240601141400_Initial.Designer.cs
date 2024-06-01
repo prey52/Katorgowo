@@ -12,8 +12,8 @@ using OfertyPracy.Database;
 namespace OfertyPracy.Migrations
 {
     [DbContext(typeof(OfertyPracyDBcontext))]
-    [Migration("20240531123944_V2.1")]
-    partial class V21
+    [Migration("20240601141400_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

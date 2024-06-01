@@ -32,7 +32,6 @@ namespace Katorgowo.Controllers
             return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
         }
 
-        //public async void Wyslij(OfertyPracyModel model)
         public async Task<IActionResult> Wyslij(OfertyPracyModel model)
         {
             var url = "https://localhost:7029/api/OfertyPracy";

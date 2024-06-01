@@ -17,7 +17,11 @@
     </div>
     <h2>Wymagania:</h2>
     <div>
-        <p>Jeden</p>
-        <p>Dwa</p>
+        @{
+            foreach (var item in Model.Wymagania)
+            {
+                <p>@item</p>
+            }
+        }
     </div>
 </div>

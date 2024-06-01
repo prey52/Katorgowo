@@ -3,6 +3,7 @@ using JobOffers.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfertyPracy.Database;
+using System.Diagnostics.CodeAnalysis;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -33,6 +34,14 @@ namespace JobOffers
         public async Task<OfertyPracyModel> Get(int id)
         {
             OfertyPracyModel result = await _dbcontext.OfertyPracy.FindAsync(id);
+            var tmp = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == id).ToListAsync();
+            OfertyPracyWymagania listaWymagan = new OfertyPracyWymagania();
+
+            /*foreach (var item in tmp)
+            {
+                listaWymagan.Opis = item.Opis;
+            }
+            result.Wymagania = listaWymagan;*/
             return result;
         }
 
@@ -47,11 +56,21 @@ namespace JobOffers
                     return BadRequest("Model jest null");
                 }
 
-                model.Status = "Oczekujący";
-                model.DataWaznosci = DateTime.Now;
-                model.DataPublikacji = DateTime.Now;
+                
 
-                _dbcontext.OfertyPracy.Add(model);
+                OfertyPracyModel saveModel = model;
+                saveModel.Benefity = null;
+                saveModel.Wymagania = null;
+
+                OfertyPracyWymagania wymagania = new OfertyPracyWymagania()
+                {
+                    Opis = model.Opis,
+                    OfertaPracyId = await _dbcontext.OfertyPracy.MaxAsync(x => x.Id)+1
+                };
+
+                _dbcontext.OfertyPracy.Add(saveModel);
+                _dbcontext.Wymagania.Add(wymagania);
+
                 await _dbcontext.SaveChangesAsync();
 
                 return Ok("Model zapisany pomyślnie");
@@ -63,30 +82,6 @@ namespace JobOffers
                 return StatusCode(500, "Wystąpił błąd podczas zapisywania danych");
             }
         }
-        /*public async Task<IActionResult> Post([FromBody] OfertyPracyModel model)
-        {
-
-            OfertyPracyWymagania Wtest = new OfertyPracyWymagania
-            {
-                Opis = "testowy benefit",
-                OfertaPracyId = 0
-            };
-
-            OfertyPracyBenefity Btest = new OfertyPracyBenefity
-            {
-                Opis = "testowy opis",
-                OfertaPracyId = 0
-            };
-
-            model.Wymagania.Add(Wtest);
-            model.Benefity.Add(Btest);
-            model.DataPublikacji = DateTime.Now;
-
-            _dbcontext.Add(model);
-            await _dbcontext.SaveChangesAsync();
-
-            return Ok();
-        }*/
 
         // PUT api/<OfertyPracyController>/5
         /*[HttpPut("{id}")]
