@@ -5,6 +5,25 @@ GET https://localhost:7029/api/OfertyPracy/
 Accept: application/json
 
 ###GET oferta o podanym ID
-
 GET https://localhost:7029/api/OfertyPracy/2
 Accept: application/json
+
+### Testowanie akcji POST
+POST https://localhost:7029/api/OfertyPracy
+Content-Type: application/json
+
+{
+  "id": 1,
+  "idRekrutera": "string",
+  "status": "string",
+  "tytu³": "string",
+  "kategoria": "string",
+  "opis": "string",
+  "dataStworzenia": "2024-05-31T12:25:21.152Z",
+  "dataPublikacji": "2024-05-31T12:25:21.152Z",
+  "dataWaznosci": "2024-05-31T12:25:21.152Z",
+
+  "wynagrodzenie": "string",
+  "wymiarPracy": "string",
+  "rodzajUmowy": "string"
+}

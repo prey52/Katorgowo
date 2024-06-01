@@ -32,7 +32,8 @@ namespace Katorgowo.Controllers
             return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
         }
 
-        public async void Wyslij(OfertyPracyModel model)
+        //public async void Wyslij(OfertyPracyModel model)
+        public async Task<IActionResult> Wyslij(OfertyPracyModel model)
         {
             var url = "https://localhost:7029/api/OfertyPracy";
 
@@ -41,7 +42,7 @@ namespace Katorgowo.Controllers
 
             await _httpClient.PostAsJsonAsync(url, model);
 
-            RedirectToAction("~");
+            return RedirectToAction("ListaOgloszen");
         }
 
         public async Task<IActionResult> ListaOgloszen()

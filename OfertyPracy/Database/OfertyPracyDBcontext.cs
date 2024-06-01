@@ -24,7 +24,7 @@ namespace OfertyPracy.Database
             base.OnModelCreating(modelBuilder);
 
             //jeden do wielu z benefitami
-            modelBuilder.Entity<OfertyPracyModel>()
+            /*modelBuilder.Entity<OfertyPracyModel>()
                 .HasMany(j => j.Benefity)
                 .WithOne(b => b.OfertaPracy)
                 .HasForeignKey(b => b.OfertaPracyId);
@@ -33,10 +33,8 @@ namespace OfertyPracy.Database
             modelBuilder.Entity<OfertyPracyModel>()
                 .HasMany(j => j.Wymagania)
                 .WithOne(b => b.OfertaPracy)
-                .HasForeignKey(b => b.OfertaPracyId);
+                .HasForeignKey(b => b.OfertaPracyId);*/
         }
 
     }
-
-    
 }

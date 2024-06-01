@@ -7,48 +7,104 @@
 @inject SignInManager<DBUser> SignInManager
 @inject UserManager<DBUser> UserManager
 
+@{
+    List<string> TypyUmowy = new List<string>
+    {
+        "Umowa o pracę",
+        "Umowa zlecenie",
+        "Umowa o dzieło",
+        "Kontrakt B2B",
+        "Umowa o pracę tymczasową",
+        "Umowa na zastępstwo",
+        "Umowa staż/praktyki"
+    };
+
+    List<string> WymiarPracy = new List<string>
+    {
+        "Pełen etat",
+        "3/4 etatu",
+        "1/2 etatu"
+    };
+
+    List<string> Kategoria = new List<string>
+    {
+        "Informatyka",
+        "Medycyna",
+        "Finanse",
+        "Edukacja",
+        "Inżynieria",
+        "Handel",
+        "Sztuka i design",
+        "Administracja",
+        "Sprzedaż",
+        "Prawo",
+        "Marketing",
+        "Produkcja",
+        "Transport",
+        "Usługi",
+        "Budownictwo",
+        "Gastronomia",
+        "Media i komunikacja",
+        "Rolnictwo",
+        "Nauka i badania",
+        "Inne"
+    };
+}
+
 <form asp-action="Wyslij">
-    <!--ID ogłoszenia z autoamtu-->
     <input asp-for="IdRekrutera" type="hidden" value="@UserManager.GetUserId(User)" />
     <p>Tytuł ogłoszenia</p>
     <input asp-for="Tytuł" type="text" placeholder="Tytuł ogłoszenia" />
     <p>Kategoria</p>
     <select asp-for="Kategoria">
-        <!--Walnąć wszystko z listy w pętli-->
-        <option>Informatyka</option>
+        @{
+            foreach (var item in Kategoria)
+            {
+                <option>@item</option>
+            }
+        }
     </select>
     <p>Opis</p>
     <input asp-for="Opis" type="text" placeholder="Opis" />
-    <p>Ważność (w dniach)</p>
-    <input asp-for="WaznoscDni" type="number" placeholder="7"/>
+    <p>Data ważności</p>
+    <input asp-for="DataWaznosci" type="date" placeholder="7"/>
 
     <p>Wymagania</p>
+    <!--
     <div id="requirements">
-         <!-- Dynamiczne pola tekstowe będą dodawane tutaj -->
+         <!-- Dynamiczne pola tekstowe będą dodawane tutaj
         <input asp-for="Wymagania" type="text" placeholder="Wymaganie">
     </div>
     <button type="button" id="add-requirement-btn">Dodaj wymaganie</button>
-
+    -->
     <p>Wynagrodzenie</p>
     <input asp-for="Wynagrodzenie" type="text" placeholder="1000zł" />
     <p>Wymiar pracy</p>
     <select asp-for="WymiarPracy">
-        <!--Walnąć wszystko z listy w pętli-->
-        <option>1/2 etatu</option>
+        @{
+            foreach (var item in WymiarPracy)
+            {
+                <option>@item</option>
+            }
+        }
     </select>
     <p>Rodzaj umowy</p>
     <select asp-for="RodzajUmowy">
-        <!--Walnąć wszystko z listy w pętli-->
-        <option>Umowa zlecenie</option>
+        @{
+            foreach (var item in TypyUmowy)
+            {
+                <option>@item</option>
+            }
+        }
     </select>
-
+    <!--
     <p>Benefity</p>
     <div id="benefits">
-        <!-- Dynamiczne pola tekstowe będą dodawane tutaj -->
+        Dynamiczne pola tekstowe będą dodawane tutaj
         <input asp-for="Benefity" type="text" placeholder="benefit">
     </div>
     <button type="button" id="add-benefit-btn">Dodaj benefit</button>
-
+     -->
     <input type="submit" value="wyślij" />
 </form>
 

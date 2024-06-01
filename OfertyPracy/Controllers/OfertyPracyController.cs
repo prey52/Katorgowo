@@ -38,17 +38,33 @@ namespace JobOffers
 
         // POST api/<OfertyPracyController>
         [HttpPost]
-        public void Post([FromBody] OfertyPracyModel model)
+        public async Task<IActionResult> Post([FromBody] OfertyPracyModel model)
         {
-            /*public class OfertyPracyBenefity
+            try
             {
-                public int Id { get; set; }
-                public string Opis { get; set; }
+                if (model == null)
+                {
+                    return BadRequest("Model jest null");
+                }
 
-                // Klucz obcy do ofert
-                public int OfertaPracyId { get; set; }
-                public OfertyPracyModel OfertaPracy { get; set; }
-            }*/
+                model.Status = "Oczekujący";
+                model.DataWaznosci = DateTime.Now;
+                model.DataPublikacji = DateTime.Now;
+
+                _dbcontext.OfertyPracy.Add(model);
+                await _dbcontext.SaveChangesAsync();
+
+                return Ok("Model zapisany pomyślnie");
+            }
+            catch (Exception ex)
+            {
+                // Logowanie wyjątku
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Wystąpił błąd podczas zapisywania danych");
+            }
+        }
+        /*public async Task<IActionResult> Post([FromBody] OfertyPracyModel model)
+        {
 
             OfertyPracyWymagania Wtest = new OfertyPracyWymagania
             {
@@ -65,11 +81,12 @@ namespace JobOffers
             model.Wymagania.Add(Wtest);
             model.Benefity.Add(Btest);
             model.DataPublikacji = DateTime.Now;
-            model.DataWaznosci = DateTime.Now;
 
             _dbcontext.Add(model);
-            _dbcontext.SaveChangesAsync();
-        }
+            await _dbcontext.SaveChangesAsync();
+
+            return Ok();
+        }*/
 
         // PUT api/<OfertyPracyController>/5
         /*[HttpPut("{id}")]
@@ -77,8 +94,8 @@ namespace JobOffers
         {
         }*/
 
-            // DELETE api/<OfertyPracyController>/5
-            [HttpDelete("{id}")]
+        // DELETE api/<OfertyPracyController>/5
+        [HttpDelete("{id}")]
         public void Delete(int id)
         {
         }

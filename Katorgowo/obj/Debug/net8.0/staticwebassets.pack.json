@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Katorgowo.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\Katorgowo-logo.png",
+      "PackagePath": "staticwebassets\\Katorgowo-logo.png"
+    },
+    {
       "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
       "PackagePath": "staticwebassets\\css\\ListaOgloszen.css"
     },
