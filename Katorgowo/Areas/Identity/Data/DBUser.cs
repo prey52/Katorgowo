@@ -19,4 +19,3 @@ public class DBUser : IdentityUser
     public string? CompanyLocalization { get; set; }
 
 }
-

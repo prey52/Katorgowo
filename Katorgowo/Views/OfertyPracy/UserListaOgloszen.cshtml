@@ -1,26 +1,49 @@
-﻿<link rel="stylesheet" href="~/css/ListaOgloszen.css" />
+﻿@using Microsoft.AspNetCore.Identity
+@using Katorgowo.Areas.Identity.Data
+@using Katorgowo.Models
 
-@model IEnumerable<Katorgowo.Models.OfertyPracyModel>
+@namespace Katorgowo.Areas.Identity
+@inject SignInManager<DBUser> SignInManager
+@inject UserManager<DBUser> UserManager
+
+@model IEnumerable<Katorgowo.Models.OfertyPracyUserViewModel>
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+<link rel="stylesheet" href="~/css/ListaOgloszen.css" />
 
-<div>
+<div class="jobForm">
     <form>
         <input type="text" placeholder="Znajdź pracę marzeń"/>
         <select>
-            <option>Kategoria</option>
+            @{
+                foreach (var item in Listy.Kategoria)
+                {
+                    <option>@item</option>
+                }
+            }
         </select>
         <select>
-            <option>Wymiar pracy</option>
+            @{
+                foreach (var item in Listy.WymiarPracy)
+                {
+                    <option>@item</option>
+                }
+            }
         </select>
         <select>
-            <option>Umowa</option>
+            @{
+            foreach (var item in Listy.TypyUmowy)
+            {
+                <option>@item</option>
+            }
+        }
         </select>
         <input type="text">Miasto</input>
     </form>
 </div>
-<div>
+
+<div class="jobSort">
     <form>
         <input type="text" value="Najnowsze"/>
         <select>
@@ -31,22 +54,26 @@
 
 @foreach (var item in Model)
 {
-    <div>
-        <div>
-            @Html.DisplayFor(modelItem => item.RodzajUmowy)
-            @Html.DisplayFor(modelItem => item.WymiarPracy)
-            @Html.DisplayFor(modelItem => item.DataPublikacji)
+    string imgSrc = item.LogoFirmy != null ? $"data:image/png;base64,{item.LogoFirmy}" : "/path/to/default/image.png";
+
+    <div class="jobOffer">
+        <a asp-action="Ogloszenie" asp-route-id="@item.Id">
+            <div class="full-width right-aligned first">
+            <p>@Html.DisplayFor(modelItem => item.RodzajUmowy)</p>
+            <p>@Html.DisplayFor(modelItem => item.WymiarPracy)</p>
+            <p class="rFirst">@Html.DisplayFor(modelItem => item.DataPublikacji)</p>
         </div>
-        <div>
-            <div>
-                @Html.DisplayFor(modelItem => item.Tytuł)
-                @Html.DisplayFor(modelItem => item.Wynagrodzenie)
-                <p>Nazwa firmy</p>
+        <div class="side-by-side">
+            <img src="@imgSrc" />
+            <div class="stacked">
+                <h5>@Html.DisplayFor(modelItem => item.Tytuł)</h5>
+                <p>@Html.DisplayFor(modelItem => item.Wynagrodzenie)</p>
+                <p>@Html.DisplayFor(modelItem => item.NazwaFirmy)</p>
             </div>
         </div>
-        <div>
-            <p>Miasto(Województwo)</p>
+        <div class="full-width right-aligned">
+                <p class="rFirst">@Html.DisplayFor(modelItem => item.LokalizacjaFirmy)</p>
         </div>
+        </a>
     </div>
-    <a asp-action="Ogloszenie" asp-route-id="@item.Id">Szczegóły oferty</a>
 }

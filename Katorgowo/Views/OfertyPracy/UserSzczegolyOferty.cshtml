@@ -1,7 +1,12 @@
 ﻿@model OfertyPracyModel
-@{
 
-}
+@using Microsoft.AspNetCore.Identity
+@using Katorgowo.Areas.Identity.Data
+@using Katorgowo.Models
+
+@namespace Katorgowo.Areas.Identity
+@inject SignInManager<DBUser> SignInManager
+@inject UserManager<DBUser> UserManager
 
 <div>
     <p>Ważna do: @Model.DataWaznosci</p>
@@ -25,3 +30,4 @@
         }
     </div>
 </div>
+

@@ -9,7 +9,7 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data">
             <hr />
             <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
             <div class="form-floating mb-3">
@@ -38,39 +38,40 @@
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
             <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" aria-required="true" />
+                <input asp-for="Input.Password" type="password" class="form-control" aria-required="true" />
                 <label asp-for="Input.Password"></label>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
             <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" aria-required="true" />
+                <input asp-for="Input.ConfirmPassword" type="password" class="form-control" aria-required="true" />
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
             <div class="form-floating mb-3">
-                <select asp-for="Input.Role" aria-required="true">
-                    <option>Użytkownik</option>
-                    <option>Rekruter</option>
+                <select asp-for="Input.Role" class="form-control" aria-required="true" id="roleSelect" onchange="toggleRecruiterFields()">
+                    <option value="User">Użytkownik</option>
+                    <option value="Recruiter">Rekruter</option>
                 </select>
                 <label asp-for="Input.Role"></label>
                 <span asp-validation-for="Input.Role" class="text-danger"></span>
             </div>
-            <!--Sekcja rekrutera-->
-            <p>TODO: zniknąć te pola, jeżeli zostanie wybrany użytkownik</p>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.CompanyName" class="form-control" aria-required="true" />
-                <label asp-for="Input.CompanyName"></label>
-                <span asp-validation-for="Input.CompanyName" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input type="file" class="form-control" aria-required="true" />
-                <label asp-for="Input.CompanyLogo"></label>
-                <span asp-validation-for="Input.CompanyLogo" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.CompanyLocalization" class="form-control" aria-required="true" />
-                <label asp-for="Input.CompanyLocalization"></label>
-                <span asp-validation-for="Input.CompanyLocalization" class="text-danger"></span>
+            <!-- Sekcja rekrutera -->
+            <div id="recruiterFields" style="display: none;">
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.CompanyName" class="form-control" />
+                    <label asp-for="Input.CompanyName"></label>
+                    <span asp-validation-for="Input.CompanyName" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.CompanyLogo" type="file" class="form-control" accept="image/jpg, image/jpeg, image/png" />
+                    <label asp-for="Input.CompanyLogo"></label>
+                    <span asp-validation-for="Input.CompanyLogo" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.CompanyLocalization" class="form-control" />
+                    <label asp-for="Input.CompanyLocalization"></label>
+                    <span asp-validation-for="Input.CompanyLocalization" class="text-danger"></span>
+                </div>
             </div>
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
@@ -109,4 +110,17 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script>
+        function toggleRecruiterFields() {
+            var roleSelect = document.getElementById("roleSelect");
+            var recruiterFields = document.getElementById("recruiterFields");
+            if (roleSelect.value === "Recruiter") {
+                recruiterFields.style.display = "block";
+            } else {
+                recruiterFields.style.display = "none";
+            }
+        }
+        // Initial call to set the correct state on page load
+        toggleRecruiterFields();
+    </script>
 }

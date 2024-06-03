@@ -2,54 +2,11 @@
 
 @using Microsoft.AspNetCore.Identity
 @using Katorgowo.Areas.Identity.Data
+@using Katorgowo.Models
 
 @namespace Katorgowo.Areas.Identity
 @inject SignInManager<DBUser> SignInManager
 @inject UserManager<DBUser> UserManager
-
-@{
-    List<string> TypyUmowy = new List<string>
-    {
-        "Umowa o pracę",
-        "Umowa zlecenie",
-        "Umowa o dzieło",
-        "Kontrakt B2B",
-        "Umowa o pracę tymczasową",
-        "Umowa na zastępstwo",
-        "Umowa staż/praktyki"
-    };
-
-    List<string> WymiarPracy = new List<string>
-    {
-        "Pełen etat",
-        "3/4 etatu",
-        "1/2 etatu"
-    };
-
-    List<string> Kategoria = new List<string>
-    {
-        "Informatyka",
-        "Medycyna",
-        "Finanse",
-        "Edukacja",
-        "Inżynieria",
-        "Handel",
-        "Sztuka i design",
-        "Administracja",
-        "Sprzedaż",
-        "Prawo",
-        "Marketing",
-        "Produkcja",
-        "Transport",
-        "Usługi",
-        "Budownictwo",
-        "Gastronomia",
-        "Media i komunikacja",
-        "Rolnictwo",
-        "Nauka i badania",
-        "Inne"
-    };
-}
 
 <form asp-action="Wyslij">
     <input asp-for="IdRekrutera" type="hidden" value="@UserManager.GetUserId(User)" />
@@ -58,7 +15,7 @@
     <p>Kategoria</p>
     <select asp-for="Kategoria">
         @{
-            foreach (var item in Kategoria)
+            foreach (var item in Listy.Kategoria)
             {
                 <option>@item</option>
             }
@@ -81,7 +38,7 @@
     <p>Wymiar pracy</p>
     <select asp-for="WymiarPracy">
         @{
-            foreach (var item in WymiarPracy)
+            foreach (var item in Listy.WymiarPracy)
             {
                 <option>@item</option>
             }
@@ -90,7 +47,7 @@
     <p>Rodzaj umowy</p>
     <select asp-for="RodzajUmowy">
         @{
-            foreach (var item in TypyUmowy)
+            foreach (var item in Listy.TypyUmowy)
             {
                 <option>@item</option>
             }

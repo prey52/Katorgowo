@@ -56,9 +56,7 @@ namespace JobOffers
                     return BadRequest("Model jest null");
                 }
 
-                
-
-                OfertyPracyModel saveModel = model;
+                /*OfertyPracyModel saveModel = model;
                 saveModel.Benefity = null;
                 saveModel.Wymagania = null;
 
@@ -66,10 +64,12 @@ namespace JobOffers
                 {
                     Opis = model.Opis,
                     OfertaPracyId = await _dbcontext.OfertyPracy.MaxAsync(x => x.Id)+1
-                };
+                };*/
 
-                _dbcontext.OfertyPracy.Add(saveModel);
-                _dbcontext.Wymagania.Add(wymagania);
+
+
+                _dbcontext.OfertyPracy.Add(model);
+                //_dbcontext.Wymagania.Add(wymagania);
 
                 await _dbcontext.SaveChangesAsync();
 
@@ -91,8 +91,26 @@ namespace JobOffers
 
         // DELETE api/<OfertyPracyController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            var offer = await _dbcontext.OfertyPracy.FindAsync(id);
+
+            if (offer == null)
+            {
+                return NotFound("Oferta nie została znaleziona");
+            }
+
+            var benefity = await _dbcontext.Benefity.Where(x => x.OfertaPracyId == id).ToListAsync();
+            _dbcontext.Benefity.RemoveRange(benefity);
+
+            var wymagania = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == id).ToListAsync();
+            _dbcontext.Wymagania.RemoveRange(wymagania);
+
+            _dbcontext.OfertyPracy.Remove(offer);
+
+            await _dbcontext.SaveChangesAsync();
+
+            return Ok("Usunięto pomyślnie");
         }
     }
 }
