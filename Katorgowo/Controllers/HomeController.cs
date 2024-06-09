@@ -1,5 +1,6 @@
 using Azure;
 using Katorgowo.Areas.Identity;
+using Katorgowo.Areas.Identity.Data;
 using Katorgowo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -14,12 +15,14 @@ namespace Katorgowo.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly HttpClient _httpClient;
         private readonly UserManager<DBUser> _userManager;
+        private readonly KatorgowoDBContext _dbContext;
 
-        public HomeController(ILogger<HomeController> logger, HttpClient httpClient, UserManager<DBUser> userManager)
+        public HomeController(ILogger<HomeController> logger, HttpClient httpClient, UserManager<DBUser> userManager, KatorgowoDBContext context)
         {
             _logger = logger;
             _httpClient = httpClient;
             _userManager = userManager;
+            _dbContext = context;
         }
 
         public IActionResult Index()
@@ -31,24 +34,36 @@ namespace Katorgowo.Controllers
         {
             return View();
         }
-        public IActionResult DodajOgloszenie()
+        public async Task<IActionResult> DodajOgloszenie()
         {
-            return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
+            var recruiter = await _userManager.GetUserAsync(User);
+            var localizationFilled = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == recruiter.Id);
+
+            if(localizationFilled == null)
+            {
+                return Redirect("/Identity/Account/Manage/Lokalizacja");
+            }
+            else
+            {
+                return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
+            }
+            
         }
 
-        public async Task<IActionResult> Wyslij(OfertyPracyModel model)
+        public async Task<IActionResult> Wyslij(OfertyPracyDTO jobOfferDto)
         {
             var url = "https://localhost:7029/api/OfertyPracy";
 
-            model.Status = "Oczekuj¹cy";
-            model.DataStworzenia = DateTime.Now;
-            model.DataPublikacji = DateTime.Now;
-            //przeniesienie zmian do kontrolera ofert pracy z jakiegoœ powodu nie dzia³a o_0
+            jobOfferDto.Status = "Oczekuj¹ca";
+            jobOfferDto.DataStworzenia = DateTime.Now;
+            jobOfferDto.DataPublikacji = DateTime.Now; //do zmiany
 
-            await _httpClient.PostAsJsonAsync(url, model);
+            await _httpClient.PostAsJsonAsync(url, jobOfferDto);
 
             return RedirectToAction("ListaOgloszen");
         }
+
+
 
         public async Task<IActionResult> ListaOgloszen()
         {
@@ -73,10 +88,10 @@ namespace Katorgowo.Controllers
                     DataWaznosci = item.DataWaznosci,
                     Wynagrodzenie = item.Wynagrodzenie,
                     WymiarPracy = item.WymiarPracy,
-                    RodzajUmowy = item.RodzajUmowy, 
+                    RodzajUmowy = item.RodzajUmowy,
                     NazwaFirmy = user.CompanyName,
                     LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
-                    LokalizacjaFirmy = user.CompanyLocalization
+                    LokalizacjaFirmy = null //do zmiany
                 };
                 result.Add(tmp);
             }

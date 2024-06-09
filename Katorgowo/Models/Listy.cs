@@ -20,7 +20,7 @@
             "1/2 etatu"
         };
 
-        public static List<string> Kategoria = new List<string>
+        public static List<string> Kategorie = new List<string>
         {
             "Informatyka",
             "Medycyna",
@@ -42,6 +42,33 @@
             "Rolnictwo",
             "Nauka i badania",
             "Inne"
+        };
+
+        public static List<string> Statusy = new List<string>
+        {
+            "Oczekująca",
+            "Odrzucona",
+            "Zaakceptowana"
+        };
+
+        public static List<string> Wojewodztwa = new List<string>
+        {
+            "Dolnośląskie",
+            "Kujawsko-pomorskie",
+            "Lubelskie",
+            "Lubuskie",
+            "Łódzkie",
+            "Małopolskie",
+            "Mazowieckie",
+            "Opolskie",
+            "Podkarpackie",
+            "Podlaskie",
+            "Pomorskie",
+            "Śląskie",
+            "Świętokrzyskie",
+            "Warmińsko-mazurskie",
+            "Wielkopolskie",
+            "Zachodniopomorskie"
         };
     }
 }

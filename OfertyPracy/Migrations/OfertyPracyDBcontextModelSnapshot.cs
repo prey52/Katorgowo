@@ -59,7 +59,7 @@ namespace OfertyPracy.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Tytuł")
+                    b.Property<string>("Tytul")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

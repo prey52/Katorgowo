@@ -6,6 +6,7 @@ namespace OfertyPracy.Database
 {
     public class OfertyPracyBenefity
     {
+        [Key]
         public int Id { get; set; }
         public string Opis { get; set; }
 

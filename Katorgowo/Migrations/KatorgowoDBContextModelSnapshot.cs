@@ -33,10 +33,6 @@ namespace Katorgowo.Migrations
                     b.Property<DateTime>("BirthDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("CompanyLocalization")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
                     b.Property<byte[]>("CompanyLogo")
                         .HasColumnType("varbinary(max)");
 
@@ -109,6 +105,46 @@ namespace Katorgowo.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("Katorgowo.Areas.Identity.Data.LokalizacjaFirmy", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("DbuserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("KodPocztowy")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Miasto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NrLokalu")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Ulica")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Wojewodztwo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DbuserID")
+                        .IsUnique();
+
+                    b.ToTable("LokalizacjeFirm");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -248,6 +284,17 @@ namespace Katorgowo.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Katorgowo.Areas.Identity.Data.LokalizacjaFirmy", b =>
+                {
+                    b.HasOne("Katorgowo.Areas.Identity.DBUser", "Dbuser")
+                        .WithOne("CompanyLocalization")
+                        .HasForeignKey("Katorgowo.Areas.Identity.Data.LokalizacjaFirmy", "DbuserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Dbuser");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -296,6 +343,12 @@ namespace Katorgowo.Migrations
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Katorgowo.Areas.Identity.DBUser", b =>
+                {
+                    b.Navigation("CompanyLocalization")
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

@@ -107,9 +107,6 @@ namespace Katorgowo.Areas.Identity.Pages.Account
             [Display(Name = "Logo firmy")]
             public IFormFile CompanyLogo { get; set; }
 
-            [Display(Name = "Lokalizacja firmy")]
-            public string CompanyLocalization { get; set; }
-
             [Required]
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
@@ -154,7 +151,6 @@ namespace Katorgowo.Areas.Identity.Pages.Account
                             user.CompanyLogo = memoryStream.ToArray();
                         }
                     }
-                    user.CompanyLocalization = Input.CompanyLocalization;
                 }
                 else
                 {

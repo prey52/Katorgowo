@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OfertyPracy.Database;
 using System.Diagnostics.CodeAnalysis;
+using OfertyPracy.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -34,8 +35,8 @@ namespace JobOffers
         public async Task<OfertyPracyModel> Get(int id)
         {
             OfertyPracyModel result = await _dbcontext.OfertyPracy.FindAsync(id);
-            var tmp = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == id).ToListAsync();
-            OfertyPracyWymagania listaWymagan = new OfertyPracyWymagania();
+            //var tmp = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == id).ToListAsync();
+            //OfertyPracyWymagania listaWymagan = new OfertyPracyWymagania();
 
             /*foreach (var item in tmp)
             {
@@ -47,33 +48,38 @@ namespace JobOffers
 
         // POST api/<OfertyPracyController>
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] OfertyPracyModel model)
+        public async Task<IActionResult> Post([FromBody] OfertyPracyDTO jobOfferDto)
         {
             try
             {
-                if (model == null)
+                if (jobOfferDto == null)
                 {
                     return BadRequest("Model jest null");
                 }
 
-                /*OfertyPracyModel saveModel = model;
-                saveModel.Benefity = null;
-                saveModel.Wymagania = null;
-
-                OfertyPracyWymagania wymagania = new OfertyPracyWymagania()
+                var jobOffer = new OfertyPracyModel
                 {
-                    Opis = model.Opis,
-                    OfertaPracyId = await _dbcontext.OfertyPracy.MaxAsync(x => x.Id)+1
-                };*/
+                    IdRekrutera = jobOfferDto.IdRekrutera,
+                    Status = jobOfferDto.Status,
+                    Tytul = jobOfferDto.Tytul,
+                    Kategoria = jobOfferDto.Kategoria,
+                    Opis = jobOfferDto.Opis,
+                    DataStworzenia = jobOfferDto.DataStworzenia,
+                    DataPublikacji = jobOfferDto.DataPublikacji,
+                    DataWaznosci = jobOfferDto.DataWaznosci,
+                    Wynagrodzenie = jobOfferDto.Wynagrodzenie,
+                    WymiarPracy = jobOfferDto.WymiarPracy,
+                    RodzajUmowy = jobOfferDto.RodzajUmowy,
+                    Benefity = jobOfferDto.Benefity.Select(b => new OfertyPracyBenefity { Opis = b.Nazwa }).ToList(),
+                    Wymagania = jobOfferDto.Wymagania.Select(r => new OfertyPracyWymagania { Opis = r.Nazwa }).ToList()
+                };
 
 
-
-                _dbcontext.OfertyPracy.Add(model);
-                //_dbcontext.Wymagania.Add(wymagania);
-
+                //Identity sam ogarnie zapis do odpowiednich tabel <3
+                _dbcontext.OfertyPracy.Add(jobOffer);
                 await _dbcontext.SaveChangesAsync();
 
-                return Ok("Model zapisany pomyślnie");
+                return Ok(jobOffer);
             }
             catch (Exception ex)
             {

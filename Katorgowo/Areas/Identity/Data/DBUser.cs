@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Katorgowo.Areas.Identity.Data;
 using Microsoft.AspNetCore.Identity;
 
 namespace Katorgowo.Areas.Identity;
@@ -16,6 +17,6 @@ public class DBUser : IdentityUser
     //opcjonalne; wykorzystywane dla rektuterów.
     public string? CompanyName {  get; set; }
     public byte[]? CompanyLogo {  get; set; }
-    public string? CompanyLocalization { get; set; }
+    public LokalizacjaFirmy CompanyLocalization { get; set; }
 
 }
