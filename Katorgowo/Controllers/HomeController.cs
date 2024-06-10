@@ -1,5 +1,8 @@
 using Azure;
+using Katorgowo.Areas.Identity;
+using Katorgowo.Areas.Identity.Data;
 using Katorgowo.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NuGet.Protocol;
@@ -11,11 +14,15 @@ namespace Katorgowo.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly HttpClient _httpClient;
+        private readonly UserManager<DBUser> _userManager;
+        private readonly KatorgowoDBContext _dbContext;
 
-        public HomeController(ILogger<HomeController> logger, HttpClient httpClient)
+        public HomeController(ILogger<HomeController> logger, HttpClient httpClient, UserManager<DBUser> userManager, KatorgowoDBContext context)
         {
             _logger = logger;
             _httpClient = httpClient;
+            _userManager = userManager;
+            _dbContext = context;
         }
 
         public IActionResult Index()
@@ -27,29 +34,69 @@ namespace Katorgowo.Controllers
         {
             return View();
         }
-        public IActionResult DodajOgloszenie()
+        public async Task<IActionResult> DodajOgloszenie()
         {
-            return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
+            var recruiter = await _userManager.GetUserAsync(User);
+            var localizationFilled = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == recruiter.Id);
+
+            if(localizationFilled == null)
+            {
+                return Redirect("/Identity/Account/Manage/Lokalizacja");
+            }
+            else
+            {
+                return View("/Views/OfertyPracy/DodajOgloszenie.cshtml");
+            }
+            
         }
 
-        public async void Wyslij(OfertyPracyModel model)
+        public async Task<IActionResult> Wyslij(OfertyPracyDTO jobOfferDto)
         {
             var url = "https://localhost:7029/api/OfertyPracy";
 
-            model.Status = "Oczekuj¹cy";
-            model.DataStworzenia = DateTime.Now;
+            jobOfferDto.Status = "Oczekuj¹ca";
+            jobOfferDto.DataStworzenia = DateTime.Now;
+            jobOfferDto.DataPublikacji = DateTime.Now; //do zmiany
 
-            await _httpClient.PostAsJsonAsync(url, model);
+            await _httpClient.PostAsJsonAsync(url, jobOfferDto);
 
-            RedirectToAction("~");
+            return RedirectToAction("ListaOgloszen");
         }
+
+
 
         public async Task<IActionResult> ListaOgloszen()
         {
             var url = "https://localhost:7029/api/OfertyPracy";
             var jobOffers = await _httpClient.GetFromJsonAsync<List<OfertyPracyModel>>(url);
 
-            return View("/Views/OfertyPracy/UserListaOgloszen.cshtml", jobOffers);
+            List<OfertyPracyUserViewModel> result = new List<OfertyPracyUserViewModel>();
+
+            foreach (var item in jobOffers)
+            {
+                var user = await _userManager.FindByIdAsync(item.IdRekrutera);
+                OfertyPracyUserViewModel tmp = new OfertyPracyUserViewModel()
+                {
+                    Id = item.Id,
+                    IdRekrutera = item.IdRekrutera,
+                    Status = item.Status,
+                    Tytu³ = item.Tytu³,
+                    Kategoria = item.Kategoria,
+                    Opis = item.Opis,
+                    DataStworzenia = item.DataStworzenia,
+                    DataPublikacji = item.DataPublikacji,
+                    DataWaznosci = item.DataWaznosci,
+                    Wynagrodzenie = item.Wynagrodzenie,
+                    WymiarPracy = item.WymiarPracy,
+                    RodzajUmowy = item.RodzajUmowy,
+                    NazwaFirmy = user.CompanyName,
+                    LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
+                    LokalizacjaFirmy = null //do zmiany
+                };
+                result.Add(tmp);
+            }
+
+            return View("/Views/OfertyPracy/UserListaOgloszen.cshtml", result);
         }
 
         public async Task<IActionResult> Ogloszenie(int id)

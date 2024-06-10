@@ -15,22 +15,30 @@ namespace Katorgowo.Areas.Identity.Data
 
         }
 
-        protected override void OnModelCreating(ModelBuilder builder)
+        public DbSet<DBUser> dBUsers { get; set; }
+        public DbSet<LokalizacjaFirmy> LokalizacjeFirm {  get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(builder);
-            builder.ApplyConfiguration(new AppUserEntityConfiguration());
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<DBUser>()
+                .HasOne(x => x.CompanyLocalization)
+                .WithOne(y => y.Dbuser)
+                .HasForeignKey<LokalizacjaFirmy>(l => l.DbuserID);
+
+            modelBuilder.ApplyConfiguration(new AppUserEntityConfiguration());
         }
     }
     public class AppUserEntityConfiguration : IEntityTypeConfiguration<DBUser>
     {
-        public void Configure(EntityTypeBuilder<DBUser> builder)
+        public void Configure(EntityTypeBuilder<DBUser> modelBuilder)
         {
-            builder.Property(x => x.FirstName).HasMaxLength(255);
-            builder.Property(x => x.LastName).HasMaxLength(255);
-            builder.Property(x => x.BirthDate);
-            builder.Property(x => x.CompanyName).HasMaxLength(255);
-            builder.Property(x => x.CompanyLogo);
-            builder.Property(x => x.CompanyLocalization).HasMaxLength(255);
+            modelBuilder.Property(x => x.FirstName).HasMaxLength(255);
+            modelBuilder.Property(x => x.LastName).HasMaxLength(255);
+            modelBuilder.Property(x => x.BirthDate);
+            modelBuilder.Property(x => x.CompanyName).HasMaxLength(255);
+            modelBuilder.Property(x => x.CompanyLogo);
         }
     }
 }

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "uYiFO5N+WCslR14FnLofKVTzLLsyQm8kWbqV2c3aIfU=",
+=======
+  "Hash": "o+IZC02s2xmHuQDiqFPj1Nrgxn5gJmKl8VwUoya3zYQ=",
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
   "Source": "Katorgowo",
   "BasePath": "_content/Katorgowo",
   "Mode": "Default",
@@ -1290,7 +1294,30 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\Katorgowo-logo.png",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "Katorgowo-logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Katorgowo-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
       "SourceId": "Katorgowo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",

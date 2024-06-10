@@ -72,24 +72,17 @@ namespace Katorgowo.Areas.Identity.Pages.Account
         /// </summary>
         public class InputModel
         {
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
-
-            //custom
+            // Istniejące pola...
             [Required]
             [StringLength(20, ErrorMessage = "Przekroczono maksymalną ilość znaków")]
             [Display(Name = "Imię")]
             public string FirstName { get; set; }
 
-            //custom
             [Required]
             [StringLength(20, ErrorMessage = "Przekroczono maksymalną ilość znaków")]
             [Display(Name = "Nazwisko")]
             public string LastName { get; set; }
 
-            //custom
             [Required]
             [DataType(DataType.Date)]
             [Display(Name = "Data urodzenia")]
@@ -105,47 +98,26 @@ namespace Katorgowo.Areas.Identity.Pages.Account
             [Display(Name = "Numer telefonu")]
             public string PhoneNumber { get; set; }
 
-            //oh...
-            //[Required] buggable with <select>
             [Display(Name = "Rola")]
-            public string Role {  get; set; }
+            public string Role { get; set; }
 
-            //custom
-            [AllowNull]
             [Display(Name = "Nazwa firmy")]
             public string CompanyName { get; set; }
 
-            //custom
-            [AllowNull]
             [Display(Name = "Logo firmy")]
-            public byte[] CompanyLogo { get; set; }
-            
-            //custom
-            [AllowNull]
-            [Display(Name = "Lokalizacja firmy")]
-            public string CompanyLocalization { get; set; }
+            public IFormFile CompanyLogo { get; set; }
 
-
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Required]
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Hasło")]
             public string Password { get; set; }
 
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Powtórz hasło")]
             [Compare("Password", ErrorMessage = "Hasła różnią się od siebie.")]
             public string ConfirmPassword { get; set; }
         }
-
 
         public async Task OnGetAsync(string returnUrl = null)
         {
@@ -167,12 +139,18 @@ namespace Katorgowo.Areas.Identity.Pages.Account
                 user.PhoneNumber = Input.PhoneNumber;
                 user.BirthDate = Input.BirthDate;
                 //na wypadek gdyby użytkownik zmienił typ na "rekruter", uzupełnił wartości i przełączył z powrotem na "użytkownik"
-                if (Input.Role == "Rekruter")
+                if (Input.Role == "Recruiter")
                 {
                     await _userManager.AddToRoleAsync(user, "Recruiter");
                     user.CompanyName = Input.CompanyName;
-                    user.CompanyLogo = Input.CompanyLogo;
-                    user.CompanyLocalization = Input.CompanyLocalization;
+                    if (Input.CompanyLogo != null && Input.CompanyLogo.Length > 0)
+                    {
+                        using (var memoryStream = new MemoryStream())
+                        {
+                            await Input.CompanyLogo.CopyToAsync(memoryStream);
+                            user.CompanyLogo = memoryStream.ToArray();
+                        }
+                    }
                 }
                 else
                 {

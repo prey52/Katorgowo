@@ -1,3 +1,81 @@
 ﻿body {
     background-color: lightgray;
 }
+
+a {
+    text-decoration: none;
+}
+
+.jobForm {
+    background-color: white;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.jobSort {
+    margin-top: 20px;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.jobOffer {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 160px;
+}
+
+.full-width {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+full-width p {
+    margin-left: 10px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+}
+
+.side-by-side img {
+    width: 100px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.stacked p {
+    margin-bottom: 5px;
+}
+
+.stacked h5 {
+    color: rgb(178,141,190);
+}
+
+.right-aligned {
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}
+
+.right-aligned > :not(.rFirst) {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.rFirst {
+    margin-right: 20px;
+}

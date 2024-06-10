@@ -35,8 +35,5 @@ namespace OfertyPracy.Database
                 .WithOne(b => b.OfertaPracy)
                 .HasForeignKey(b => b.OfertaPracyId);
         }
-
     }
-
-    
 }

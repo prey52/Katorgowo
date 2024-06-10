@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|c:\\users\\pauli\\source\\repos\\katorgowo\\appointmentcalendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{316A4EDC-6D70-489C-9146-FA1F55C743A6}|AppointmentCalendar\\AppointmentCalendar.csproj|solutionrelative:appointmentcalendar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -251,6 +252,26 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\account\\manage\\lokalizacja.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\account\\manage\\lokalizacja.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\models\\listy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\models\\listy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
     }
   ],
   "DocumentGroupContainers": [
@@ -260,7 +281,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 12,
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
           "Children": [
             {
               "$type": "Bookmark",
@@ -280,6 +305,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Views\\Home\\Index.cshtml",
@@ -289,10 +315,22 @@
               "ViewState": "AQIAABAAAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-18T23:55:21.827Z",
+=======
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T21:58:57.245Z",
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Program.cs",
@@ -315,11 +353,23 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T16:42:50.256Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T21:57:24.967Z",
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
               "Title": "KalendarzModel.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\source\\repos\\Katorgowo\\AppointmentCalendar\\Models\\KalendarzModel.cs",
               "RelativeDocumentMoniker": "AppointmentCalendar\\Models\\KalendarzModel.cs",
@@ -328,6 +378,42 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T16:41:02.629Z",
+=======
+              "Title": "Listy.cs",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Models\\Listy.cs",
+              "RelativeDocumentMoniker": "Katorgowo\\Models\\Listy.cs",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Models\\Listy.cs",
+              "RelativeToolTip": "Katorgowo\\Models\\Listy.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwDUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T21:41:37.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T21:37:06.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lokalizacja.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\Lokalizacja.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\Lokalizacja.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\Lokalizacja.cshtml",
+              "RelativeToolTip": "Katorgowo\\Areas\\Identity\\Pages\\Account\\Manage\\Lokalizacja.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T21:10:38.529Z",
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
               "EditorCaption": ""
             },
             {

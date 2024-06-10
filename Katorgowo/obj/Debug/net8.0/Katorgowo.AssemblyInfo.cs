@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Katorgowo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46d5781a7d63404ceb7c85c09bc1b882049d2a5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d5cf956cba46e669406229edfcbf525c096b797")]
 [assembly: System.Reflection.AssemblyProductAttribute("Katorgowo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Katorgowo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,6 +13,7 @@ C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\Accoun
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.RazorAssemblyInfo.cache
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.RazorAssemblyInfo.cs
+C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.sourcelink.json
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\staticwebassets\msbuild.AccountManagement.Microsoft.AspNetCore.StaticWebAssets.props
@@ -28,6 +29,7 @@ C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\refint
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.pdb
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.genruntimeconfig.cache
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\ref\AccountManagement.dll
+<<<<<<< HEAD
 C:\Users\Hirvio\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.sourcelink.json
 C:\Users\pauli\source\repos\Katorgowo\AccountManagement\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\pauli\source\repos\Katorgowo\AccountManagement\bin\Debug\net8.0\appsettings.json
@@ -60,3 +62,5 @@ C:\Users\pauli\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\refint\
 C:\Users\pauli\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.pdb
 C:\Users\pauli\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\AccountManagement.genruntimeconfig.cache
 C:\Users\pauli\source\repos\Katorgowo\AccountManagement\obj\Debug\net8.0\ref\AccountManagement.dll
+=======
+>>>>>>> c569a44a4792246215d013a886c10cd4110fecda
