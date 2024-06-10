@@ -24,9 +24,21 @@ namespace JobOffers
 
         // GET: api/<OfertyPracyController>
         [HttpGet]
-        public async Task<IEnumerable<OfertyPracyModel>> Get()
+        public async Task<IEnumerable<ListaOfertDTO>> Get()
         {
-            List<OfertyPracyModel> list = await _dbcontext.OfertyPracy.ToListAsync();
+            //List<OfertyPracyModel> list = await _dbcontext.OfertyPracy.ToListAsync();
+            var list = await _dbcontext.OfertyPracy.Select(x => new ListaOfertDTO
+                                                            {
+                                                                Id = x.Id,
+                                                                IdRektutera = x.IdRekrutera,
+                                                                Tytul = x.Tytul,
+                                                                Kategoria = x.Kategoria,
+                                                                Status = x.Status,
+                                                                DataWaznosci = x.DataWaznosci,
+                                                                Wynagrodzenie = x.Wynagrodzenie,
+                                                                WymiarPracy = x.WymiarPracy,
+                                                                RodzajUmowy = x.RodzajUmowy
+                                                            }).ToListAsync();
             return list;
         }
 

@@ -16,5 +16,4 @@
         public string RodzajUmowy { get; set; }
         public List<OfertyPracyBenefityDTO> Benefity { get; set; } = new List<OfertyPracyBenefityDTO>();
     }
-
 }

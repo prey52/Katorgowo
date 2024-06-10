@@ -48,7 +48,8 @@
         {
             "Oczekująca",
             "Odrzucona",
-            "Zaakceptowana"
+            "Opublikowana",
+            "Wygasła"
         };
 
         public static List<string> Wojewodztwa = new List<string>

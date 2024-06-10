@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NuGet.Protocol;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace Katorgowo.Controllers
 {
@@ -30,10 +31,6 @@ namespace Katorgowo.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
         public async Task<IActionResult> DodajOgloszenie()
         {
             var recruiter = await _userManager.GetUserAsync(User);
@@ -63,39 +60,82 @@ namespace Katorgowo.Controllers
             return RedirectToAction("ListaOgloszen");
         }
 
-
-
-        public async Task<IActionResult> ListaOgloszen()
+        public async Task<IActionResult> ListaOgloszen(FiltrDTO filtr)
         {
             var url = "https://localhost:7029/api/OfertyPracy";
-            var jobOffers = await _httpClient.GetFromJsonAsync<List<OfertyPracyModel>>(url);
+            var jobOffers = await _httpClient.GetFromJsonAsync<List<ListaOfertDTO>>(url);
 
             List<OfertyPracyUserViewModel> result = new List<OfertyPracyUserViewModel>();
 
-            foreach (var item in jobOffers)
+            bool isFiltrFilled = false;
+            PropertyInfo[] properties = filtr.GetType().GetProperties();
+            foreach (PropertyInfo property in properties)
             {
-                var user = await _userManager.FindByIdAsync(item.IdRekrutera);
-                OfertyPracyUserViewModel tmp = new OfertyPracyUserViewModel()
+                // SprawdŸ czy w³aœciwoœæ nie jest null ani nie jest pustym ci¹giem znaków
+                if (property.GetValue(filtr) != null && !string.IsNullOrWhiteSpace(property.GetValue(filtr).ToString()))
                 {
-                    Id = item.Id,
-                    IdRekrutera = item.IdRekrutera,
-                    Status = item.Status,
-                    Tytu³ = item.Tytu³,
-                    Kategoria = item.Kategoria,
-                    Opis = item.Opis,
-                    DataStworzenia = item.DataStworzenia,
-                    DataPublikacji = item.DataPublikacji,
-                    DataWaznosci = item.DataWaznosci,
-                    Wynagrodzenie = item.Wynagrodzenie,
-                    WymiarPracy = item.WymiarPracy,
-                    RodzajUmowy = item.RodzajUmowy,
-                    NazwaFirmy = user.CompanyName,
-                    LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
-                    LokalizacjaFirmy = null //do zmiany
-                };
-                result.Add(tmp);
+                    // Jeœli chocia¿ jedna w³aœciwoœæ nie jest pusta, zwróæ false
+                    isFiltrFilled = true;
+                }
             }
 
+
+            if (isFiltrFilled == false)
+            {
+                foreach (var item in jobOffers)
+                {
+                    var user = await _userManager.FindByIdAsync(item.IdRektutera);
+
+                    var lokalizacja = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == user.Id);
+
+                    OfertyPracyUserViewModel tmp = new OfertyPracyUserViewModel()
+                    {
+                        Id = item.Id,
+                        Status = item.Status,
+                        Tytu³ = item.Tytul,
+                        Kategoria = item.Kategoria,
+                        DataWaznosci = item.DataWaznosci.ToShortDateString(),
+                        Wynagrodzenie = item.Wynagrodzenie,
+                        WymiarPracy = item.WymiarPracy,
+                        RodzajUmowy = item.RodzajUmowy,
+                        NazwaFirmy = user.CompanyName,
+                        LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
+                        Wojewodztwo = lokalizacja.Wojewodztwo,
+                        Miasto = lokalizacja.Miasto
+                    };
+                    result.Add(tmp);
+                }
+            }
+            else
+            {
+                foreach (var item in jobOffers)
+                {
+                    var user = await _userManager.FindByIdAsync(item.IdRektutera);
+                    var lokalizacja = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == user.Id);
+
+                    if(filtr.Miasto == lokalizacja.Miasto)
+                    {
+                        OfertyPracyUserViewModel tmp = new OfertyPracyUserViewModel()
+                        {
+                            Id = item.Id,
+                            Status = item.Status,
+                            Tytu³ = item.Tytul,
+                            Kategoria = item.Kategoria,
+                            DataWaznosci = item.DataWaznosci.ToShortDateString(),
+                            Wynagrodzenie = item.Wynagrodzenie,
+                            WymiarPracy = item.WymiarPracy,
+                            RodzajUmowy = item.RodzajUmowy,
+                            NazwaFirmy = user.CompanyName,
+                            LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
+                            Wojewodztwo = lokalizacja.Wojewodztwo,
+                            Miasto = lokalizacja.Miasto
+                        };
+                        result.Add(tmp);
+                    }                    
+                }
+            }
+
+            
             return View("/Views/OfertyPracy/UserListaOgloszen.cshtml", result);
         }
 
