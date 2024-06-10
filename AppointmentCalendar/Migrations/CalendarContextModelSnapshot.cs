@@ -50,14 +50,20 @@ namespace AppointmentCalendar.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("DataSpotkania")
-                        .HasColumnType("datetime2");
+                    b.Property<DateOnly>("Data")
+                        .HasColumnType("date");
+
+                    b.Property<TimeOnly>("End")
+                        .HasColumnType("time");
 
                     b.Property<int>("IdAplikacji")
                         .HasColumnType("int");
 
                     b.Property<int>("IdRekrutera")
                         .HasColumnType("int");
+
+                    b.Property<TimeOnly>("Start")
+                        .HasColumnType("time");
 
                     b.HasKey("Id");
 

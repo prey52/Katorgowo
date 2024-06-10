@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\pauli\source\repos\Katorgowo\AppointmentCalendar
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/pauli/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Index - rekruter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleCAtIHJla3J1dGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pauli/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
