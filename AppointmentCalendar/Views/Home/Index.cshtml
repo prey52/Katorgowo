@@ -1,13 +1,10 @@
-﻿@{
-    ViewData["Title"] = "Kalendarz";
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang='en'>
 <head>
     <meta charset='utf-8' />
     <script src='~/lib/fullcalendar/index.global.js'></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <link href='~/lib/fullcalendar/main.css' rel='stylesheet' />
 </head>
 <body>
     <div id='calendar'></div>
@@ -16,34 +13,31 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Dodaj nowe wydarzenie</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Zapisz się na wydarzenie</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <form id="eventForm">
+                        <input type="hidden" id="eventId" name="eventId">
+                        <input type="hidden" id="eventDate" name="eventDate">
                         <div class="form-group">
-                            <label for="eventName">Nazwa wydarzenia:</label>
-                            <input type="text" class="form-control" id="eventName" name="eventName" required>
+                            <label for="idAplikacji">Id Aplikacji:</label>
+                            <input type="number" class="form-control" id="idAplikacji" name="idAplikacji" required>
                         </div>
-                        <div class="form-group">
-                            <label for="eventStart">Data rozpoczęcia:</label>
-                            <input type="datetime-local" class="form-control" id="eventStart" name="eventStart" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="eventEnd">Data zakończenia:</label>
-                            <input type="datetime-local" class="form-control" id="eventEnd" name="eventEnd" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Dodaj</button>
+              
+                        <button type="button" id="saveEvent" class="btn btn-primary">Zapisz się</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/fullcalendar/core/main.js"></script>
     <script src="~/lib/fullcalendar/daygrid/main.js"></script>
+    <script src="~/lib/fullcalendar/timegrid/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var calendarEl = document.getElementById('calendar');
@@ -58,38 +52,47 @@
                     right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
                 },
                 dateClick: function (info) {
-                    // Przechwytuje kliknięcie w dzień
-                    calendar.changeView('timeGridDay', info.dateStr); // Przechodzi do widoku dnia
+                    $('#eventDate').val(info.dateStr);
+                    $('#exampleModal').modal('show');
                 },
                 events: '/Home/GetEvents',
-                select: function (info) {
-                    // Przechwytuje zaznaczenie obszaru (kliknięcie na godzinę)
-                    $('#exampleModal').modal('show'); // Wyświetla modal z formularzem dodawania wydarzenia
-                    $('#eventStart').val(info.startStr); // Ustawia datę początkową w formularzu
-                    $('#eventEnd').val(info.endStr); // Ustawia datę końcową w formularzu
-                }
+                eventClick: function (info) {
+                    var event = info.event;
+                    $('#exampleModal').modal('show');
+                    $('#eventId').val(event.id);
+                    $('#idAplikacji').val(event.extendedProps.IdAplikacji);
+                },
             });
             calendar.render();
 
-            // Obsługa formularza dodawania wydarzenia
-            $('#eventForm').submit(function (e) {
-                e.preventDefault();
-                var formData = $(this).serialize();
+            $('#exampleModal .close').click(function () {
+                $('#exampleModal').modal('hide');
+            });
+
+            $('#saveEvent').click(function () {
+                var formData = {
+                    IdAplikacji: $('#idAplikacji').val(),
+                    EventId: $('#eventId').val()
+                };
+
                 $.ajax({
                     type: 'POST',
-                    url: '/Home/AddEvent',
-                    data: formData,
+                    url: '/Home/SaveEvent',
+                    data: JSON.stringify(formData),
+                    contentType: "application/json",
                     success: function (response) {
-                        if (response.success) {
-                            calendar.refetchEvents();
-                            $('#exampleModal').modal('hide');
-                        } else {
-                            alert('Wystąpił błąd podczas dodawania wydarzenia.');
-                        }
+                        $('#exampleModal').modal('hide');
+                        calendar.refetchEvents();
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Wystąpił błąd podczas zapisywania się na wydarzenie. Error: ' + xhr.responseText);
                     }
                 });
             });
         });
+
+
+
     </script>
 </body>
 </html>
