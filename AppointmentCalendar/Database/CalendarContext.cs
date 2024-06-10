@@ -12,12 +12,12 @@ namespace AppointmentCalendar.Database
         }
 
         public DbSet<WydarzeniaModel> Wydarzenia { get; set; }
-        public DbSet<KalendarzModel> Kalendarz { get; set; }
+        public DbSet<SpotkaniaModel> Spotkania { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<WydarzeniaModel>().HasKey(x => x.Id);
-            modelBuilder.Entity<KalendarzModel>().HasKey(x => x.Id);
+            modelBuilder.Entity<SpotkaniaModel>().HasKey(x => x.Id);
         }
     }
 }

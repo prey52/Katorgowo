@@ -41,7 +41,6 @@ namespace AppointmentCalendar.Controllers
 
                 var wydarzenie = new WydarzeniaModel
                 {
-                    IdAplikacji = model.IdAplikacji,
                     IdRekrutera = model.IdRekrutera,
                     Data = data,
                     Start = start,
@@ -80,7 +79,7 @@ namespace AppointmentCalendar.Controllers
                     var start = TimeOnly.Parse(model.Start);
                     var end = TimeOnly.Parse(model.End);
 
-                    existingEvent.IdAplikacji = model.IdAplikacji;
+                
                     existingEvent.IdRekrutera = model.IdRekrutera;
                     existingEvent.Data = data;
                     existingEvent.Start = start;
@@ -145,7 +144,6 @@ namespace AppointmentCalendar.Controllers
                         date = eventDetails.Data.ToString("yyyy-MM-dd"),
                         startTime = eventDetails.Start.ToString("HH:mm"),
                         endTime = eventDetails.End.ToString("HH:mm"),
-                        applicationId = eventDetails.IdAplikacji,
                         recruiterId = eventDetails.IdRekrutera
                     });
                 }
@@ -174,7 +172,6 @@ namespace AppointmentCalendar.Controllers
                 var existingEvent = await _context.Wydarzenia.FindAsync(model.Id);
                 if (existingEvent != null)
                 {
-                    existingEvent.IdAplikacji = model.IdAplikacji;
                     existingEvent.IdRekrutera = model.IdRekrutera;
                     await _context.SaveChangesAsync();
                 }

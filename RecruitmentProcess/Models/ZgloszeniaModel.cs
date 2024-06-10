@@ -11,6 +11,7 @@ namespace RecruitmentProcess.Models
 
     public class ZgloszeniaModel
     {
+        public int Id { get; set; }
         public int IdAplikacji { get; set; }
         public DateTime DataZgloszenia { get; set; }
         public string TrescZgloszenia { get; set; }
