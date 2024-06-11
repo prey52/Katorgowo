@@ -2,14 +2,9 @@
 # Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
 ################################################################################
 
-/Katorgowo/obj/Debug/net8.0
-/Katorgowo/bin/Debug/net8.0
-/AppointmentCalendar/obj/Debug/net8.0
-/AppointmentCalendar/bin/Debug/net8.0
-/OfertyPracy/obj/Debug/net8.0
-/OfertyPracy/bin/Debug/net8.0
-/RecruitmentProcess/obj/Debug/net8.0
-/RecruitmentProcess/bin/Debug/net8.0
+**/obj/
+**/bin/
+**/vs/
 
 /.vs/Katorgowo/FileContentIndex
 /AppointmentCalendar/bin/Debug/net8.0
@@ -26,20 +21,3 @@
 /.vs/Katorgowo/FileContentIndex/fcb64353-588c-4ac3-9df7-b827d5a23463.vsidx
 /RecruitmentProcess/obj/Debug/net8.0/RecruitmentProcess.csproj.AssemblyReference.cache
 >>>>>>> eeac00cfd92a9291a139e840e19004c4da85dd50
-
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
-[Bb]in/
-[Oo]bj/
-/Katorgowo/appsettings.json
-
-/Katorgowo/bin/ebug
