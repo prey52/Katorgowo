@@ -8,6 +8,8 @@
 @inject SignInManager<DBUser> SignInManager
 @inject UserManager<DBUser> UserManager
 
+<link rel="stylesheet" href="~/css/ListaOgloszen.css" />
+
 <form asp-action="Wyslij" id="jobOfferForm">
     <input asp-for="IdRekrutera" type="hidden" value="@UserManager.GetUserId(User)" />
 

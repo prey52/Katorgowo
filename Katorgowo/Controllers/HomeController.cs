@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using NuGet.Protocol;
+using System;
 using System.Diagnostics;
 using System.Reflection;
 
@@ -68,6 +69,10 @@ namespace Katorgowo.Controllers
             List<OfertyPracyUserViewModel> result = new List<OfertyPracyUserViewModel>();
 
             bool isFiltrFilled = false;
+            if (filtr.Kategoria == "Kategoria") filtr.Kategoria = null;
+            if (filtr.WymiarPracy == "Wymiar pracy") filtr.WymiarPracy = null;
+            if (filtr.RodzajUmowy == "Rodzaj umowy") filtr.RodzajUmowy = null;
+
             PropertyInfo[] properties = filtr.GetType().GetProperties();
             foreach (PropertyInfo property in properties)
             {
@@ -113,7 +118,11 @@ namespace Katorgowo.Controllers
                     var user = await _userManager.FindByIdAsync(item.IdRektutera);
                     var lokalizacja = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == user.Id);
 
-                    if(filtr.Miasto == lokalizacja.Miasto)
+                    if((filtr.Tytul == null || item.Tytul == filtr.Tytul) &&
+                    (filtr.Kategoria == null || item.Kategoria == filtr.Kategoria) &&
+                    (filtr.WymiarPracy == null || item.WymiarPracy == filtr.WymiarPracy) &&
+                    (filtr.RodzajUmowy == null || item.RodzajUmowy == filtr.RodzajUmowy) &&
+                    (filtr.Miasto == null || lokalizacja.Miasto == filtr.Miasto))
                     {
                         OfertyPracyUserViewModel tmp = new OfertyPracyUserViewModel()
                         {

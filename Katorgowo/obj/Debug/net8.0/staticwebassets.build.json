@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o+IZC02s2xmHuQDiqFPj1Nrgxn5gJmKl8VwUoya3zYQ=",
+  "Hash": "NF8DTDqXygTZhs9z1HzfqmfX349ofTb/jeTPTA4PCmQ=",
   "Source": "Katorgowo",
   "BasePath": "_content/Katorgowo",
   "Mode": "Default",
@@ -2390,6 +2390,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\search.svg",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "search.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\search.svg"
     }
   ]
 }

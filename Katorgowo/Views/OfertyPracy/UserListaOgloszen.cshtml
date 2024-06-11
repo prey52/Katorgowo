@@ -11,8 +11,9 @@
 
 <div class="jobForm">
     <form asp-action="ListaOgloszen">
-        <input type="text" name="Tytul" id="Tytul" placeholder="Znajdź pracę marzeń" />
-        <select name="Kategoria" id="Kategoria">
+        <input type="text" name="Tytul" id="Tytul" class="btn bg-lightgray jobFormPadding" placeholder="Znajdź pracę marzeń" />
+        <select name="Kategoria" id="Kategoria" class="btn bg-lightgray dropdown-toggle jobFormPadding">
+            <option>Kategoria</option>
             @{
                 foreach (var item in Listy.Kategorie)
                 {
@@ -20,7 +21,8 @@
                 }
             }
         </select>
-        <select name="WymiarPracy" id="WymiarPracy">
+        <select name="WymiarPracy" id="WymiarPracy" class="btn bg-lightgray dropdown-toggle jobFormPadding">
+            <option>Wymiar pracy</option>
             @{
                 foreach (var item in Listy.WymiarPracy)
                 {
@@ -28,7 +30,8 @@
                 }
             }
         </select>
-        <select name="RodzajUmowy" id="RodzajUmowy">
+        <select name="RodzajUmowy" id="RodzajUmowy" class="btn bg-lightgray dropdown-toggle jobFormPadding">
+            <option>Rodzaj umowy</option>
             @{
             foreach (var item in Listy.TypyUmowy)
             {
@@ -36,8 +39,8 @@
             }
         }
         </select>
-        <input type="text" name="Miasto" id="Miasto">Miasto</input>
-        <button type="submit">Szukaj</button>
+        <input type="text" name="Miasto" id="Miasto" class="btn bg-lightgray jobFormPadding" placeholder="Miasto"></input>
+        <button type="submit" class="btn btn-primary bg-pink jobFormPadding"><img src="~/search.svg" /></button>
     </form>
 </div>
 
