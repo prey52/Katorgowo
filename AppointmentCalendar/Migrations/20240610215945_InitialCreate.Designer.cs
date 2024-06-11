@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppointmentCalendar.Migrations
 {
     [DbContext(typeof(CalendarContext))]
-    [Migration("20240602183500_InitialCreate")]
+    [Migration("20240610215945_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -25,7 +25,7 @@ namespace AppointmentCalendar.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AppointmentCalendar.Models.KalendarzModel", b =>
+            modelBuilder.Entity("AppointmentCalendar.Models.SpotkaniaModel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -33,16 +33,15 @@ namespace AppointmentCalendar.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("IdRekrutera")
+                    b.Property<int>("IdAplikacji")
                         .HasColumnType("int");
 
-                    b.Property<string>("WolneTerminy")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("IdWydarzenia")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Kalendarz");
+                    b.ToTable("Spotkania");
                 });
 
             modelBuilder.Entity("AppointmentCalendar.Models.WydarzeniaModel", b =>
@@ -58,9 +57,6 @@ namespace AppointmentCalendar.Migrations
 
                     b.Property<TimeOnly>("End")
                         .HasColumnType("time");
-
-                    b.Property<int>("IdAplikacji")
-                        .HasColumnType("int");
 
                     b.Property<int>("IdRekrutera")
                         .HasColumnType("int");

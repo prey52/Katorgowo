@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8' />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src='~/lib/fullcalendar/index.global.js'></script>
+    <link href='~/lib/fullcalendar/main.css' rel='stylesheet' />
+</head>
+<body>
+    <div id='calendar'></div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dodaj nowe wydarzenie</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="selectedDateDisplay" class="alert alert-info" role="alert"></div>
+                    <form id="eventForm">
+                        <input type="hidden" id="eventDate" name="eventDate">
+                        <div class="form-group">
+                            <label for="timeStart">Czas rozpoczęcia:</label>
+                            <input type="time" class="form-control" id="timeStart" name="timeStart" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeEnd">Czas zakończenia:</label>
+                            <input type="time" class="form-control" id="timeEnd" name="timeEnd" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="idRekrutera">Id Rekrutera:</label>
+                            <input type="number" class="form-control" id="idRekrutera" name="idRekrutera" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Zapisz</button>
+                        <button type="button" id="deleteEvent" class="btn btn-danger" style="display: none;">Usuń</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/fullcalendar/core/main.js"></script>
+    <script src="~/lib/fullcalendar/daygrid/main.js"></script>
+    <script src="~/lib/fullcalendar/timegrid/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                selectable: true,
+                selectMirror: true,
+                dayMaxEvents: true,
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+                },
+                dateClick: function (info) {
+                    $('#selectedDateDisplay').text('Wybrana data: ' + info.dateStr);
+                    $('#eventDate').val(info.dateStr);
+                    $('#exampleModalLabel').text('Dodaj nowe wydarzenie');
+                    $('#deleteEvent').hide();
+                    $('#exampleModal').modal('show');
+
+                    $('#eventForm').off('submit').on('submit', function (e) {
+                        e.preventDefault();
+
+                        var formData = {
+                            IdRekrutera: $('#idRekrutera').val(),
+                            Data: $('#eventDate').val(),
+                            Start: $('#timeStart').val(),
+                            End: $('#timeEnd').val()
+                        };
+
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Home/AddEvent',
+                            data: JSON.stringify(formData),
+                            contentType: "application/json",
+                            success: function (response) {
+                                if (response.success) {
+                                    $('#exampleModal').modal('hide');
+                                    calendar.refetchEvents();
+                                } else {
+                                    alert('Wystąpił błąd podczas dodawania wydarzenia: ' + response.message);
+                                }
+                            },
+                            error: function (xhr, status, error) {
+                                alert('Wystąpił błąd podczas dodawania wydarzenia. Error: ' + xhr.responseText);
+                            }
+                        });
+                    });
+                },
+                events: '/Home/GetEvents',
+                eventClick: function (info) {
+                    var event = info.event;
+
+                    $('#exampleModalLabel').text('Edytuj wydarzenie');
+                    $('#eventDate').val(event.start.toISOString().split('T')[0]);
+
+                    var startLocal = new Date(event.start).toLocaleTimeString('en-GB', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        hour12: false
+                    });
+
+                    var endLocal = event.end ? new Date(event.end).toLocaleTimeString('en-GB', {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        hour12: false
+                    }) : '';
+
+                    $('#timeStart').val(startLocal);
+                    $('#timeEnd').val(endLocal);
+
+                    $('#idRekrutera').val(event.extendedProps.IdRekrutera);
+                    $('#deleteEvent').show();
+
+                    $('#deleteEvent').off('click').on('click', function () {
+                        if (confirm(`Czy na pewno chcesz usunąć wydarzenie "${event.title}"?`)) {
+                            $.ajax({
+                                type: 'POST',
+                                url: '/Home/DeleteEvent',
+                                data: { id: event.id },
+                                success: function (response) {
+                                    if (response.success) {
+                                        $('#exampleModal').modal('hide');
+                                        calendar.refetchEvents();
+                                    } else {
+                                        alert('Wystąpił błąd podczas usuwania wydarzenia: ' + response.message);
+                                    }
+                                },
+                                error: function (xhr, status, error) {
+                                    alert('Wystąpił błąd podczas usuwania wydarzenia. Error: ' + xhr.responseText);
+                                }
+                            });
+                        }
+                    });
+
+
+                    $('#eventForm').off('submit').on('submit', function (e) {
+                        e.preventDefault();
+
+                        var formData = {
+                            Id: event.id,
+                            IdRekrutera: $('#idRekrutera').val(),
+                            Data: $('#eventDate').val(),
+                            Start: $('#timeStart').val(),
+                            End: $('#timeEnd').val()
+                        };
+
+                        $.ajax({
+                            type: 'POST',
+                            url: '/Home/EditEvent',
+                            data: JSON.stringify(formData),
+                            contentType: "application/json",
+                            success: function (response) {
+                                $('#exampleModal').modal('hide');
+                                calendar.refetchEvents();
+                            },
+                            error: function (xhr, status, error) {
+                                alert('Wystąpił błąd podczas aktualizacji wydarzenia. Error: ' + xhr.responseText);
+                            }
+                        });
+                    });
+
+                    $('#exampleModal').modal('show');
+                }
+            });
+            calendar.render();
+
+            $('#exampleModal .close').click(function () {
+                $('#exampleModal').modal('hide');
+            });
+
+            $('#exampleModal').on('hidden.bs.modal', function () {
+                $('#eventForm')[0].reset();
+                $('#exampleModalLabel').text('Dodaj nowe wydarzenie');
+            });
+        });
+    </script>
+</body>
+</html>

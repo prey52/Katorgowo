@@ -1,7 +1,13 @@
+//JobOffers
+using RecruitmentProcess.Database;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<RecruitmentContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("KatorgowoRekrutacja")));
 
 var app = builder.Build();
 

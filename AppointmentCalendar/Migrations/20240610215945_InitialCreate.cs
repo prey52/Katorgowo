@@ -12,17 +12,17 @@ namespace AppointmentCalendar.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Kalendarz",
+                name: "Spotkania",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdRekrutera = table.Column<int>(type: "int", nullable: false),
-                    WolneTerminy = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    IdWydarzenia = table.Column<int>(type: "int", nullable: false),
+                    IdAplikacji = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Kalendarz", x => x.Id);
+                    table.PrimaryKey("PK_Spotkania", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -31,7 +31,6 @@ namespace AppointmentCalendar.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdAplikacji = table.Column<int>(type: "int", nullable: false),
                     IdRekrutera = table.Column<int>(type: "int", nullable: false),
                     Data = table.Column<DateOnly>(type: "date", nullable: false),
                     Start = table.Column<TimeOnly>(type: "time", nullable: false),
@@ -47,7 +46,7 @@ namespace AppointmentCalendar.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Kalendarz");
+                name: "Spotkania");
 
             migrationBuilder.DropTable(
                 name: "Wydarzenia");

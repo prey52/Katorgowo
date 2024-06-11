@@ -4,6 +4,7 @@ namespace RecruitmentProcess.Models
 {
     public class RekrutacjaModel
     {
+        public int Id { get; set; }
         public int IdAplikacji { get; set; }
         public int IdOgloszenia { get; set; }
         public int IdRekrutera { get; set; }

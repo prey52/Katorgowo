@@ -18,12 +18,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Hirvio\source\repos\Katorgowo\AppointmentCalendar
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hirvio/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Hirvio/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Index-R.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC1SLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hirvio/source/repos/Katorgowo/AppointmentCalendar/Views/Home/IndexTMP.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFRNUC5jc2h0bWw=
+[C:/Users/Hirvio/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hirvio/source/repos/Katorgowo/AppointmentCalendar/Views/Home/Privacy.cshtml]
