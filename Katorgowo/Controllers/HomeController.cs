@@ -151,9 +151,37 @@ namespace Katorgowo.Controllers
         public async Task<IActionResult> Ogloszenie(int id)
         {
             var url = $"https://localhost:7029/api/OfertyPracy/{id}";
-            OfertyPracyModel oferta = await _httpClient.GetFromJsonAsync<OfertyPracyModel>(url);
+            SzczegolyOfertyDTO oferta = await _httpClient.GetFromJsonAsync<SzczegolyOfertyDTO>(url);
+            var user = await _userManager.FindByIdAsync(oferta.IdRekrutera);
+            var lokalizacja = _dbContext.LokalizacjeFirm.FirstOrDefault(x => x.DbuserID == user.Id);
 
-            return View("/Views/OfertyPracy/UserSzczegolyOferty.cshtml", oferta);
+            SzczegolyOfertyViewModel result = new SzczegolyOfertyViewModel()
+            {
+                Id = oferta.Id,
+                IdRekrutera = oferta.IdRekrutera,
+                Tytul = oferta.Tytul,
+                Opis = oferta.Opis,
+                Kategoria = oferta.Kategoria,
+                DataWaznosci = oferta.DataWaznosci.ToShortDateString(),
+                Wynagrodzenie = oferta.Wynagrodzenie,
+                WymiarPracy = oferta.WymiarPracy,
+                RodzajUmowy = oferta.RodzajUmowy,
+                LogoFirmy = Convert.ToBase64String(user.CompanyLogo),
+                NazwaFirmy = user.CompanyName,
+                Wojewodztwo = lokalizacja.Wojewodztwo,
+                Miasto = lokalizacja.Miasto,
+            };
+            foreach (var item in oferta.Wymagania)
+            {
+                result.Wymagania.Add(item);
+            }
+
+            foreach (var item in oferta.Benefity)
+            {
+                result.Benefity.Add(item);
+            }
+
+            return View("/Views/OfertyPracy/UserSzczegolyOferty.cshtml", result);
         }
          
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

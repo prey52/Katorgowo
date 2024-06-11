@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\ListaOgloszen.css"
     },
     {
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+      "PackagePath": "staticwebassets\\css\\OgloszenieSzczegoly.css"
+    },
+    {
       "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -257,8 +261,12 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\search.svg",
-      "PackagePath": "staticwebassets\\search.svg"
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\svg\\reqArrow.svg",
+      "PackagePath": "staticwebassets\\svg\\reqArrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\svg\\search.svg",
+      "PackagePath": "staticwebassets\\svg\\search.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Katorgowo.Microsoft.AspNetCore.StaticWebAssets.props",

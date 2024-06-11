@@ -44,18 +44,42 @@ namespace JobOffers
 
         // GET api/<OfertyPracyController>/5
         [HttpGet("{id}")]
-        public async Task<OfertyPracyModel> Get(int id)
+        public async Task<SzczegolyOfertyDTO> Get(int id)
         {
-            OfertyPracyModel result = await _dbcontext.OfertyPracy.FindAsync(id);
-            //var tmp = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == id).ToListAsync();
-            //OfertyPracyWymagania listaWymagan = new OfertyPracyWymagania();
+            var result1 = await _dbcontext.OfertyPracy.FindAsync(id);
+            var result2 = await _dbcontext.Benefity.Where(x => x.OfertaPracyId == result1.Id).ToListAsync();
+            var result3 = await _dbcontext.Wymagania.Where(x => x.OfertaPracyId == result1.Id).ToListAsync();
 
-            /*foreach (var item in tmp)
+            List<string> benefity = new List<string>();
+            foreach (var item in result2)
             {
-                listaWymagan.Opis = item.Opis;
+                benefity.Add(item.Opis);
             }
-            result.Wymagania = listaWymagan;*/
-            return result;
+            
+            List<string> wymagania = new List<string>();
+            foreach (var item in result3)
+            {
+                wymagania.Add(item.Opis);
+            }
+
+
+            SzczegolyOfertyDTO DTO = new SzczegolyOfertyDTO()
+            {
+                Id = result1.Id,
+                IdRekrutera = result1.IdRekrutera,
+                Tytul = result1.Tytul,
+                Opis = result1.Opis,
+                Kategoria = result1.Kategoria,
+                DataWaznosci = result1.DataWaznosci,
+                Wynagrodzenie = result1.Wynagrodzenie,
+                WymiarPracy = result1.WymiarPracy,
+                RodzajUmowy = result1.RodzajUmowy,
+                Benefity = benefity,
+                Wymagania = wymagania
+            };
+
+
+            return DTO;
         }
 
         // POST api/<OfertyPracyController>
@@ -85,7 +109,6 @@ namespace JobOffers
                     Benefity = jobOfferDto.Benefity.Select(b => new OfertyPracyBenefity { Opis = b.Nazwa }).ToList(),
                     Wymagania = jobOfferDto.Wymagania.Select(r => new OfertyPracyWymagania { Opis = r.Nazwa }).ToList()
                 };
-
 
                 //Identity sam ogarnie zapis do odpowiednich tabel <3
                 _dbcontext.OfertyPracy.Add(jobOffer);

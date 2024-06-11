@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\wwwroot\\css\\ogloszenieszczegoly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\wwwroot\\css\\ogloszenieszczegoly.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\ofertypracy\\userszczegolyoferty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\ofertypracy\\userszczegolyoferty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\ofertypracy\\userlistaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\ofertypracy\\userlistaogloszen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\ofertypracy\\dodajogloszenie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\ofertypracy\\dodajogloszenie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\wwwroot\\css\\listaogloszen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\wwwroot\\css\\listaogloszen.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|c:\\users\\hirvio\\source\\repos\\katorgowo\\katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48C07326-DAE7-4AE3-AAA9-E47E3562CA04}|Katorgowo\\Katorgowo.csproj|solutionrelative:katorgowo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,79 +55,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserSzczegolyOferty.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T01:39:23.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Katorgowo\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Katorgowo\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Title": "OgloszenieSzczegoly.css",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+              "RelativeDocumentMoniker": "Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+              "RelativeToolTip": "Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-11T01:37:23.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T01:34:14.75Z",
+              "WhenOpened": "2024-06-11T12:58:39.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DodajOgloszenie.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\DodajOgloszenie.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\DodajOgloszenie.cshtml",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\DodajOgloszenie.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\DodajOgloszenie.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T01:34:01.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ListaOgloszen.css",
               "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
               "RelativeDocumentMoniker": "Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
               "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
               "RelativeToolTip": "Katorgowo\\wwwroot\\css\\ListaOgloszen.css",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEUAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-10T22:18:19.961Z",
+              "WhenOpened": "2024-06-11T12:58:37.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserListaOgloszen.cshtml",
-              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
-              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
-              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
-              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\UserListaOgloszen.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Title": "UserSzczegolyOferty.cshtml",
+              "DocumentMoniker": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
+              "RelativeDocumentMoniker": "Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml",
+              "ToolTip": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml*",
+              "RelativeToolTip": "Katorgowo\\Views\\OfertyPracy\\UserSzczegolyOferty.cshtml*",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowCEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T15:40:34.546Z",
+              "WhenOpened": "2024-06-11T12:10:02.193Z",
               "EditorCaption": ""
             }
           ]

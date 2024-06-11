@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NF8DTDqXygTZhs9z1HzfqmfX349ofTb/jeTPTA4PCmQ=",
+  "Hash": "KAquc3+tcJMbvmoLS63BEcLHSJfLY0AMjeebLqkGxnk=",
   "Source": "Katorgowo",
   "BasePath": "_content/Katorgowo",
   "Mode": "Default",
@@ -1214,6 +1214,25 @@
       "OriginalItemSpec": "wwwroot\\css\\ListaOgloszen.css"
     },
     {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\OgloszenieSzczegoly.css",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "css/OgloszenieSzczegoly.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\OgloszenieSzczegoly.css"
+    },
+    {
       "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\css\\site.css",
       "SourceId": "Katorgowo",
       "SourceType": "Discovered",
@@ -2392,12 +2411,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\search.svg",
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\svg\\reqArrow.svg",
       "SourceId": "Katorgowo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
       "BasePath": "_content/Katorgowo",
-      "RelativePath": "search.svg",
+      "RelativePath": "svg/reqArrow.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2408,7 +2427,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\search.svg"
+      "OriginalItemSpec": "wwwroot\\svg\\reqArrow.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\svg\\search.svg",
+      "SourceId": "Katorgowo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hirvio\\source\\repos\\Katorgowo\\Katorgowo\\wwwroot\\",
+      "BasePath": "_content/Katorgowo",
+      "RelativePath": "svg/search.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\svg\\search.svg"
     }
   ]
 }
